@@ -17,6 +17,8 @@
 		38E7F052243E74E3001D7FD4 /* LessonsAndTips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E7F051243E74E3001D7FD4 /* LessonsAndTips.storyboard */; };
 		38E7F054243E750F001D7FD4 /* Saves.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E7F053243E750F001D7FD4 /* Saves.storyboard */; };
 		38E7F058243E765A001D7FD4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E7F057243E765A001D7FD4 /* Home.storyboard */; };
+		38E7F05B243FBBAA001D7FD4 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7F05A243FBBAA001D7FD4 /* CollectionViewController.swift */; };
+		38E7F05D243FC1C7001D7FD4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7F05C243FC1C7001D7FD4 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		38E7F051243E74E3001D7FD4 /* LessonsAndTips.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LessonsAndTips.storyboard; sourceTree = "<group>"; };
 		38E7F053243E750F001D7FD4 /* Saves.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Saves.storyboard; sourceTree = "<group>"; };
 		38E7F057243E765A001D7FD4 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		38E7F05A243FBBAA001D7FD4 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		38E7F05C243FC1C7001D7FD4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				38E7F02D243E5121001D7FD4 /* ViewController.swift */,
 				38E7F032243E5122001D7FD4 /* Assets.xcassets */,
 				38E7F037243E5122001D7FD4 /* Info.plist */,
+				38E7F05A243FBBAA001D7FD4 /* CollectionViewController.swift */,
+				38E7F05C243FC1C7001D7FD4 /* CollectionViewCell.swift */,
 			);
 			path = PhotoTeacher;
 			sourceTree = "<group>";
@@ -220,6 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E7F05D243FC1C7001D7FD4 /* CollectionViewCell.swift in Sources */,
+				38E7F05B243FBBAA001D7FD4 /* CollectionViewController.swift in Sources */,
 				38E7F02E243E5121001D7FD4 /* ViewController.swift in Sources */,
 				38E7F02A243E5121001D7FD4 /* AppDelegate.swift in Sources */,
 				38E7F02C243E5121001D7FD4 /* SceneDelegate.swift in Sources */,
