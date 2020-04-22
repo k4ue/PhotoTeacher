@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,9 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nfF-fz-5Am">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfF-fz-5Am">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Az-uD-MuR" userLabel="Capturar">
@@ -46,9 +45,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="nfF-fz-5Am" firstAttribute="trailing" secondItem="b9u-nO-kyS" secondAttribute="trailing" id="0yt-SM-DdC"/>
                             <constraint firstItem="b9u-nO-kyS" firstAttribute="bottom" secondItem="5Az-uD-MuR" secondAttribute="bottom" constant="20" id="22R-SZ-0zM"/>
                             <constraint firstItem="b9u-nO-kyS" firstAttribute="bottom" secondItem="Qrw-Cy-prj" secondAttribute="bottom" constant="35" id="4mt-QT-H4d"/>
+                            <constraint firstItem="nfF-fz-5Am" firstAttribute="leading" secondItem="b9u-nO-kyS" secondAttribute="leading" id="FnN-nL-bLg"/>
                             <constraint firstItem="5Az-uD-MuR" firstAttribute="centerX" secondItem="ZkM-tQ-b65" secondAttribute="centerX" id="a3Z-dd-QeC"/>
+                            <constraint firstItem="nfF-fz-5Am" firstAttribute="top" secondItem="ZkM-tQ-b65" secondAttribute="top" id="kN0-b8-Fi5"/>
+                            <constraint firstAttribute="bottom" secondItem="nfF-fz-5Am" secondAttribute="bottom" id="xSj-wo-L6q"/>
                             <constraint firstItem="b9u-nO-kyS" firstAttribute="trailing" secondItem="Qrw-Cy-prj" secondAttribute="trailing" constant="59" id="yxS-GK-GiI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="b9u-nO-kyS"/>
