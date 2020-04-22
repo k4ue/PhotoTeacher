@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24304A0D2448DC2C00C65030 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24304A0C2448DC2C00C65030 /* Camera.swift */; };
+		248257A8244FD70000302FF5 /* camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248257A7244FD70000302FF5 /* camera.storyboard */; };
 		38E7F02A243E5121001D7FD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7F029243E5121001D7FD4 /* AppDelegate.swift */; };
 		38E7F02C243E5121001D7FD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7F02B243E5121001D7FD4 /* SceneDelegate.swift */; };
 		38E7F02E243E5121001D7FD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7F02D243E5121001D7FD4 /* ViewController.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24304A0C2448DC2C00C65030 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		248257A7244FD70000302FF5 /* camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = camera.storyboard; sourceTree = "<group>"; };
 		38E7F026243E5121001D7FD4 /* PhotoTeacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTeacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E7F029243E5121001D7FD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38E7F02B243E5121001D7FD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 			children = (
 				38E7F059243F944A001D7FD4 /* Storyboards */,
 				38E7F029243E5121001D7FD4 /* AppDelegate.swift */,
+				24304A0C2448DC2C00C65030 /* Camera.swift */,
 				38E7F02B243E5121001D7FD4 /* SceneDelegate.swift */,
 				38E7F02D243E5121001D7FD4 /* ViewController.swift */,
 				38E7F032243E5122001D7FD4 /* Assets.xcassets */,
@@ -112,6 +117,7 @@
 				38E7F057243E765A001D7FD4 /* Home.storyboard */,
 				38E7F051243E74E3001D7FD4 /* LessonsAndTips.storyboard */,
 				38E7F053243E750F001D7FD4 /* Saves.storyboard */,
+				248257A7244FD70000302FF5 /* camera.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 				38E7F036243E5122001D7FD4 /* LaunchScreen.storyboard in Resources */,
 				38E7F054243E750F001D7FD4 /* Saves.storyboard in Resources */,
 				38E7F033243E5122001D7FD4 /* Assets.xcassets in Resources */,
+				248257A8244FD70000302FF5 /* camera.storyboard in Resources */,
 				38E7F058243E765A001D7FD4 /* Home.storyboard in Resources */,
 				38E7F052243E74E3001D7FD4 /* LessonsAndTips.storyboard in Resources */,
 				38E7F031243E5121001D7FD4 /* Main.storyboard in Resources */,
@@ -220,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24304A0D2448DC2C00C65030 /* Camera.swift in Sources */,
 				38E7F02E243E5121001D7FD4 /* ViewController.swift in Sources */,
 				38E7F02A243E5121001D7FD4 /* AppDelegate.swift in Sources */,
 				38E7F02C243E5121001D7FD4 /* SceneDelegate.swift in Sources */,
