@@ -26,7 +26,7 @@ class ViewControllerLições: UIViewController, UICollectionViewDelegate, UIColl
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         var cell = UICollectionViewCell()
         
-        if let tipsCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as? CollectionViewCellLições {
+        if let tipsCell = collectionView.dequeueReusableCell(withReuseIdentifier: "CellLições", for: indexPath) as? CollectionViewCellLições {
             
             tipsCell.configureTitle(with: tips[indexPath.item])
             tipsCell.configureText(with: text[indexPath.item])

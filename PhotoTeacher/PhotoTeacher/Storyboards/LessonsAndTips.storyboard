@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="UWh-F3-eqN">
-                                <rect key="frame" x="8" y="141" width="398" height="650"/>
+                                <rect key="frame" x="8" y="141" width="398" height="672"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jox-q3-DL4">
                                     <size key="itemSize" width="398" height="125"/>
@@ -33,7 +33,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.94999998807907104" contentMode="center" reuseIdentifier="Cell" id="0MX-bL-2lh" customClass="CollectionViewCellLições" customModule="PhotoTeacher" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.94999998807907104" contentMode="center" reuseIdentifier="CellLições" id="0MX-bL-2lh" customClass="CollectionViewCellLições" customModule="PhotoTeacher" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="398" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="y1b-4L-tV2">
@@ -89,7 +89,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="IFm-h2-vjM" firstAttribute="leading" secondItem="5Po-wV-0xy" secondAttribute="leading" constant="170" id="7RQ-Ut-9ZO"/>
-                            <constraint firstItem="5Po-wV-0xy" firstAttribute="bottom" secondItem="UWh-F3-eqN" secondAttribute="bottom" constant="22" id="9sv-ZJ-Qe8"/>
+                            <constraint firstItem="5Po-wV-0xy" firstAttribute="bottom" secondItem="UWh-F3-eqN" secondAttribute="bottom" id="9sv-ZJ-Qe8"/>
                             <constraint firstItem="5Po-wV-0xy" firstAttribute="trailing" secondItem="UWh-F3-eqN" secondAttribute="trailing" constant="8" id="PNu-pq-fPV"/>
                             <constraint firstItem="IFm-h2-vjM" firstAttribute="centerX" secondItem="WTb-ZN-CFX" secondAttribute="centerX" id="XMc-6S-WJr"/>
                             <constraint firstItem="5Po-wV-0xy" firstAttribute="trailing" secondItem="IFm-h2-vjM" secondAttribute="trailing" constant="170" id="gof-ge-Ssq"/>

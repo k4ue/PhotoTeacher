@@ -4,32 +4,86 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller Dicas-->
         <scene sceneID="uRr-Ay-hrZ">
             <objects>
-                <viewController id="k3r-qS-vLC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewControllerDicas" useStoryboardIdentifierAsRestorationIdentifier="YES" id="k3r-qS-vLC" customClass="ViewControllerDicas" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yKe-Ll-Xm2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6n-q7-ebf">
-                                <rect key="frame" x="190.5" y="437.5" width="33" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="5ga-8R-5pP"/>
-                                    <constraint firstAttribute="width" constant="33" id="xSG-Ou-rAj"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dicas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6n-q7-ebf">
+                                <rect key="frame" x="170" y="98" width="74" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="cZh-LF-tBT">
+                                <rect key="frame" x="8" y="141" width="398" height="672"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SI0-Dv-JVn">
+                                    <size key="itemSize" width="190" height="210"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CellDicas" id="AVl-1A-tLn" customClass="CollectionViewCellDicas" customModule="PhotoTeacher" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="190" height="210"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="fhZ-qw-LCK">
+                                            <rect key="frame" x="0.0" y="0.0" width="190" height="210"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dicas" translatesAutoresizingMaskIntoConstraints="NO" id="uKe-04-1kA">
+                                                    <rect key="frame" x="0.0" y="0.0" width="190" height="170"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36v-lW-UHU">
+                                                    <rect key="frame" x="0.0" y="179" width="190" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="36v-lW-UHU" secondAttribute="bottom" constant="10" id="D4W-dP-KJy"/>
+                                                <constraint firstAttribute="trailing" secondItem="36v-lW-UHU" secondAttribute="trailing" id="Gzc-ge-qoT"/>
+                                                <constraint firstItem="uKe-04-1kA" firstAttribute="top" secondItem="fhZ-qw-LCK" secondAttribute="top" id="OVL-ww-LHI"/>
+                                                <constraint firstItem="uKe-04-1kA" firstAttribute="leading" secondItem="fhZ-qw-LCK" secondAttribute="leading" id="Tzq-TI-iTi"/>
+                                                <constraint firstAttribute="trailing" secondItem="uKe-04-1kA" secondAttribute="trailing" id="WcN-0F-dhE"/>
+                                                <constraint firstAttribute="bottom" secondItem="uKe-04-1kA" secondAttribute="bottom" constant="40" id="dHw-Dn-n4y"/>
+                                                <constraint firstItem="36v-lW-UHU" firstAttribute="centerX" secondItem="fhZ-qw-LCK" secondAttribute="centerX" id="kcM-si-nT2"/>
+                                                <constraint firstItem="36v-lW-UHU" firstAttribute="leading" secondItem="fhZ-qw-LCK" secondAttribute="leading" id="ulN-3L-T5x"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="190" height="210"/>
+                                        <connections>
+                                            <outlet property="imageDicas" destination="uKe-04-1kA" id="yUe-gh-CLq"/>
+                                            <outlet property="titleDicas" destination="36v-lW-UHU" id="9ma-Wb-OGZ"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="k3r-qS-vLC" id="b6Q-UO-iuS"/>
+                                    <outlet property="delegate" destination="k3r-qS-vLC" id="Ybl-EB-DNe"/>
+                                </connections>
+                            </collectionView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="F6n-q7-ebf" firstAttribute="centerX" secondItem="yKe-Ll-Xm2" secondAttribute="centerX" id="4zz-C3-h7r"/>
-                            <constraint firstItem="F6n-q7-ebf" firstAttribute="centerY" secondItem="yKe-Ll-Xm2" secondAttribute="centerY" id="Q9w-4Q-bLY"/>
+                            <constraint firstItem="F6n-q7-ebf" firstAttribute="centerX" secondItem="yKe-Ll-Xm2" secondAttribute="centerX" id="1Vd-t8-JDZ"/>
+                            <constraint firstItem="cZh-LF-tBT" firstAttribute="top" secondItem="qdt-F0-ySl" secondAttribute="top" constant="53" id="9HL-Q1-4ao"/>
+                            <constraint firstItem="F6n-q7-ebf" firstAttribute="leading" secondItem="qdt-F0-ySl" secondAttribute="leading" constant="170" id="Hn5-mz-pSr"/>
+                            <constraint firstItem="cZh-LF-tBT" firstAttribute="leading" secondItem="qdt-F0-ySl" secondAttribute="leading" constant="8" id="WjR-1T-rlV"/>
+                            <constraint firstItem="F6n-q7-ebf" firstAttribute="top" secondItem="qdt-F0-ySl" secondAttribute="top" constant="10" id="ddt-RU-NCs"/>
+                            <constraint firstItem="qdt-F0-ySl" firstAttribute="bottom" secondItem="cZh-LF-tBT" secondAttribute="bottom" id="iba-C4-63t"/>
+                            <constraint firstItem="qdt-F0-ySl" firstAttribute="trailing" secondItem="F6n-q7-ebf" secondAttribute="trailing" constant="170" id="ojg-hn-2vF"/>
+                            <constraint firstItem="qdt-F0-ySl" firstAttribute="trailing" secondItem="cZh-LF-tBT" secondAttribute="trailing" constant="8" id="zDL-sP-oEx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qdt-F0-ySl"/>
                     </view>
@@ -60,4 +114,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Dicas" width="917.5" height="1224"/>
+    </resources>
 </document>
