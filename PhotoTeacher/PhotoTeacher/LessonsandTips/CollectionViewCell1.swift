@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CollectionViewCell1: UICollectionViewCell {
+class CollectionViewCellLessons: UICollectionViewCell {
     
     @IBOutlet weak var lessonLabel: UILabel!
     
