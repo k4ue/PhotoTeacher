@@ -21,6 +21,8 @@
 		97EB7B772450CEFA004B57A8 /* CollectionViewCellLições.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB7B762450CEFA004B57A8 /* CollectionViewCellLições.swift */; };
 		97EB7B7B2450DBB7004B57A8 /* ViewControllerDicas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB7B7A2450DBB7004B57A8 /* ViewControllerDicas.swift */; };
 		97EB7B7D2450DBFB004B57A8 /* CollectionViewCellDicas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB7B7C2450DBFB004B57A8 /* CollectionViewCellDicas.swift */; };
+		97EB7B8724536F71004B57A8 /* Lições.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB7B8624536F71004B57A8 /* Lições.swift */; };
+		97EB7B8924536FE4004B57A8 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB7B8824536FE4004B57A8 /* ImageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		97EB7B762450CEFA004B57A8 /* CollectionViewCellLições.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionViewCellLições.swift"; sourceTree = "<group>"; };
 		97EB7B7A2450DBB7004B57A8 /* ViewControllerDicas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDicas.swift; sourceTree = "<group>"; };
 		97EB7B7C2450DBFB004B57A8 /* CollectionViewCellDicas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellDicas.swift; sourceTree = "<group>"; };
+		97EB7B8624536F71004B57A8 /* Lições.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lições.swift"; sourceTree = "<group>"; };
+		97EB7B8824536FE4004B57A8 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 				38E7F029243E5121001D7FD4 /* AppDelegate.swift */,
 				38E7F02B243E5121001D7FD4 /* SceneDelegate.swift */,
 				38E7F02D243E5121001D7FD4 /* ViewController.swift */,
+				97EB7B8824536FE4004B57A8 /* ImageData.swift */,
 				38E7F032243E5122001D7FD4 /* Assets.xcassets */,
 				38E7F037243E5122001D7FD4 /* Info.plist */,
 				979C54D52448E59B00D95FA6 /* Lições */,
@@ -131,6 +136,7 @@
 			children = (
 				979C54D32448D93800D95FA6 /* ViewControllerLições.swift */,
 				97EB7B762450CEFA004B57A8 /* CollectionViewCellLições.swift */,
+				97EB7B8624536F71004B57A8 /* Lições.swift */,
 			);
 			name = "Lições";
 			path = "Lições";
@@ -251,8 +257,10 @@
 			files = (
 				979C54D42448D93800D95FA6 /* ViewControllerLições.swift in Sources */,
 				97EB7B7D2450DBFB004B57A8 /* CollectionViewCellDicas.swift in Sources */,
+				97EB7B8724536F71004B57A8 /* Lições.swift in Sources */,
 				97EB7B772450CEFA004B57A8 /* CollectionViewCellLições.swift in Sources */,
 				38E7F02E243E5121001D7FD4 /* ViewController.swift in Sources */,
+				97EB7B8924536FE4004B57A8 /* ImageData.swift in Sources */,
 				38E7F02A243E5121001D7FD4 /* AppDelegate.swift in Sources */,
 				38E7F02C243E5121001D7FD4 /* SceneDelegate.swift in Sources */,
 				97EB7B7B2450DBB7004B57A8 /* ViewControllerDicas.swift in Sources */,
