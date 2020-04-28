@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uvG-Sx-fiN">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -45,10 +45,10 @@
             </objects>
             <point key="canvasLocation" x="-177" y="-348"/>
         </scene>
-        <!--Saves-->
+        <!--Dicas-->
         <scene sceneID="FJ8-FP-nIP">
             <objects>
-                <viewControllerPlaceholder storyboardName="Saves" id="sEi-Y2-gdV" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Dicas" id="sEi-Y2-gdV" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="jQb-UX-21E"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OBG-LP-x8F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
