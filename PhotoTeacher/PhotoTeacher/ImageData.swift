@@ -32,7 +32,7 @@ struct Images {
     static let ImgLicao10 = UIImage(named: "10. Perspectiva.jpg")
     static let ImgLicao11 = UIImage(named: "11. Fotos profissionais.jpg")
     static let ImgLicao12 = UIImage(named: "12. Usar flash.jpg")
-    static let ImgLicao13 = UIImage(named: "13. Composiçãojpg")
+    static let ImgLicao13 = UIImage(named: "13. Composição.jpg")
     static let ImgLicao14 = UIImage(named: "14. Recortar.jpg")
     static let ImgCortarA = UIImage(named: "Cortar a.jpg")
     static let ImgCortar = UIImage(named: "Cortar.jpg")
