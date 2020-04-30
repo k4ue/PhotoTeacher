@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "7. Acessórios.jpg",
+      "filename" : "2. Nocoes basicas.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "7. Acessórios@2x.jpg",
+      "filename" : "2. Nocoes basicas@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "7. Acessórios@3x.jpg",
+      "filename" : "2. Nocoes basicas@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }
