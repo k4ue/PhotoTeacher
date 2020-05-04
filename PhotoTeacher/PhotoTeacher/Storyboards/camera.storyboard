@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,14 +12,14 @@
             <objects>
                 <viewController id="dUn-uB-ZLE" customClass="📷" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZkM-tQ-b65">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfF-fz-5Am">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uc8-AR-Pbz">
-                                        <rect key="frame" x="0.0" y="9" width="414" height="887"/>
+                                        <rect key="frame" x="0.0" y="9" width="414" height="727"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -31,32 +31,36 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXp-VX-RiU">
-                                <rect key="frame" x="30" y="59" width="37" height="30"/>
+                                <rect key="frame" x="188.66666666666666" y="15" width="37" height="30"/>
                                 <state key="normal" title="Flash"/>
                                 <connections>
                                     <action selector="alternarModoFlash:" destination="dUn-uB-ZLE" eventType="touchUpInside" id="tai-eu-ewy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AuC-rL-l2P">
+                                <rect key="frame" x="30" y="15" width="57" height="30"/>
+                                <state key="normal" title="Go back"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7v5-EM-Pme">
-                                <rect key="frame" x="342" y="59" width="42" height="30"/>
+                                <rect key="frame" x="342" y="15" width="42" height="30"/>
                                 <state key="normal" title="Grade"/>
                                 <connections>
                                     <action selector="alternarComposicaoAtual:" destination="dUn-uB-ZLE" eventType="touchUpInside" id="uwk-Sx-GAq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Az-uD-MuR" userLabel="Capturar">
-                                <rect key="frame" x="167" y="762" width="80" height="80"/>
+                                <rect key="frame" x="167" y="636" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="63N-RF-vBu"/>
                                     <constraint firstAttribute="width" constant="80" id="pdO-9D-loe"/>
                                 </constraints>
-                                <state key="normal" image="Clips_iOS_10_App_Shutter_Icon"/>
+                                <state key="normal" image="camShutter"/>
                                 <connections>
                                     <action selector="botaoDeCapturaPressionado:" destination="dUn-uB-ZLE" eventType="touchUpInside" id="5Uj-oa-ZZU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qrw-Cy-prj">
-                                <rect key="frame" x="305" y="778" width="50" height="47.666666666666629"/>
+                                <rect key="frame" x="305" y="652" width="50" height="47.666666666666629"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="KKL-et-xdA"/>
                                     <constraint firstAttribute="height" constant="50" id="yUy-tm-sHK"/>
@@ -74,13 +78,15 @@
                             <constraint firstItem="b9u-nO-kyS" firstAttribute="bottom" secondItem="Qrw-Cy-prj" secondAttribute="bottom" constant="35" id="4mt-QT-H4d"/>
                             <constraint firstAttribute="bottom" secondItem="nfF-fz-5Am" secondAttribute="bottom" id="8Rc-uu-xUO"/>
                             <constraint firstItem="7v5-EM-Pme" firstAttribute="top" secondItem="b9u-nO-kyS" secondAttribute="top" constant="15" id="QUm-jA-wyj"/>
+                            <constraint firstItem="IXp-VX-RiU" firstAttribute="centerX" secondItem="ZkM-tQ-b65" secondAttribute="centerX" id="X0P-e3-kDI"/>
                             <constraint firstItem="5Az-uD-MuR" firstAttribute="centerX" secondItem="ZkM-tQ-b65" secondAttribute="centerX" id="a3Z-dd-QeC"/>
                             <constraint firstItem="b9u-nO-kyS" firstAttribute="trailing" secondItem="7v5-EM-Pme" secondAttribute="trailing" constant="30" id="ca2-ze-roW"/>
                             <constraint firstItem="nfF-fz-5Am" firstAttribute="leading" secondItem="ZkM-tQ-b65" secondAttribute="leading" id="csy-l0-YqA"/>
                             <constraint firstItem="IXp-VX-RiU" firstAttribute="top" secondItem="b9u-nO-kyS" secondAttribute="top" constant="15" id="d8f-5S-NBx"/>
-                            <constraint firstItem="IXp-VX-RiU" firstAttribute="leading" secondItem="b9u-nO-kyS" secondAttribute="leading" constant="30" id="eq3-HT-DmY"/>
                             <constraint firstAttribute="trailing" secondItem="nfF-fz-5Am" secondAttribute="trailing" id="eu4-5v-ZeU"/>
                             <constraint firstItem="nfF-fz-5Am" firstAttribute="top" secondItem="ZkM-tQ-b65" secondAttribute="top" id="qPn-p8-VwI"/>
+                            <constraint firstItem="AuC-rL-l2P" firstAttribute="top" secondItem="b9u-nO-kyS" secondAttribute="top" constant="15" id="sOj-BJ-WI6"/>
+                            <constraint firstItem="AuC-rL-l2P" firstAttribute="leading" secondItem="b9u-nO-kyS" secondAttribute="leading" constant="30" id="vNh-KB-wGm"/>
                             <constraint firstItem="b9u-nO-kyS" firstAttribute="trailing" secondItem="Qrw-Cy-prj" secondAttribute="trailing" constant="59" id="yxS-GK-GiI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="b9u-nO-kyS"/>
@@ -101,7 +107,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Clips_iOS_10_App_Shutter_Icon" width="108" height="108"/>
+        <image name="camShutter" width="1125" height="2436"/>
         <image name="camera.rotate.fill" catalog="system" width="128" height="96"/>
     </resources>
 </document>
