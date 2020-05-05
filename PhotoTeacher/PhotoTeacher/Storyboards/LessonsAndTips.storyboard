@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lições" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFm-h2-vjM">
-                                <rect key="frame" x="170" y="98" width="74" height="30"/>
+                                <rect key="frame" x="171.5" y="98" width="71" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -87,11 +87,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="IFm-h2-vjM" firstAttribute="leading" secondItem="5Po-wV-0xy" secondAttribute="leading" constant="170" id="7RQ-Ut-9ZO"/>
                             <constraint firstItem="5Po-wV-0xy" firstAttribute="bottom" secondItem="UWh-F3-eqN" secondAttribute="bottom" id="9sv-ZJ-Qe8"/>
                             <constraint firstItem="5Po-wV-0xy" firstAttribute="trailing" secondItem="UWh-F3-eqN" secondAttribute="trailing" constant="8" id="PNu-pq-fPV"/>
                             <constraint firstItem="IFm-h2-vjM" firstAttribute="centerX" secondItem="WTb-ZN-CFX" secondAttribute="centerX" id="XMc-6S-WJr"/>
-                            <constraint firstItem="5Po-wV-0xy" firstAttribute="trailing" secondItem="IFm-h2-vjM" secondAttribute="trailing" constant="170" id="gof-ge-Ssq"/>
                             <constraint firstItem="UWh-F3-eqN" firstAttribute="leading" secondItem="5Po-wV-0xy" secondAttribute="leading" constant="8" id="kng-K9-d7A"/>
                             <constraint firstItem="UWh-F3-eqN" firstAttribute="top" secondItem="5Po-wV-0xy" secondAttribute="top" constant="53" id="qz9-Ek-CUm"/>
                             <constraint firstItem="IFm-h2-vjM" firstAttribute="top" secondItem="5Po-wV-0xy" secondAttribute="top" constant="10" id="uuI-AE-sNY"/>
