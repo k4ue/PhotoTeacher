@@ -88,10 +88,54 @@
                         <viewLayoutGuide key="safeArea" id="qdt-F0-ySl"/>
                     </view>
                     <navigationItem key="navigationItem" id="U1n-v9-fkn"/>
+                    <connections>
+                        <segue destination="QwI-6J-Mgn" kind="show" identifier="dicaViewSegueIdentifier" id="ha5-e5-ekz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="get-ew-Gxm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="129.91071428571428"/>
+            <point key="canvasLocation" x="1009" y="130"/>
+        </scene>
+        <!--Dica View Controller-->
+        <scene sceneID="lPr-OM-qpD">
+            <objects>
+                <viewController id="QwI-6J-Mgn" customClass="DicaViewController" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JWS-dh-rTK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghn-x7-RaR">
+                                <rect key="frame" x="21" y="126" width="374" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHQ-Ej-8kP">
+                                <rect key="frame" x="20" y="689" width="374" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XH8-k6-T77">
+                                <rect key="frame" x="20" y="192" width="374" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="7ub-Gr-VXc"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6RX-W9-je4"/>
+                    <connections>
+                        <outlet property="dicaImagem" destination="XH8-k6-T77" id="WQ0-wS-tOz"/>
+                        <outlet property="dicaTexto" destination="NHQ-Ej-8kP" id="X0f-Db-GZF"/>
+                        <outlet property="dicaTitulo" destination="ghn-x7-RaR" id="oRw-qa-lPg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CdG-aO-3eI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1835" y="130"/>
         </scene>
         <!--Dicas-->
         <scene sceneID="7em-1G-Mwj">
@@ -111,7 +155,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0gH-5Z-fAi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+            <point key="canvasLocation" x="212" y="130"/>
         </scene>
     </scenes>
 </document>
