@@ -23,10 +23,10 @@ class ViewControllerTelaInicial: UIViewController {
     
     private func conteudo() {
         
-        let li1 = Lição(titulo: "O que é fotografia?", texto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", imagem: Images.ImgLicao1!)
+        let li1 = Lição(titulo: "O que é fotografia?", texto1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",texto2: "", imagem: Images.ImgLicao1!)
         
         tituloLicaoLabel.text = li1.titulo
-        conteudoLicaoLabel.text = li1.texto
+        conteudoLicaoLabel.text = li1.texto1
         imageViewInicial.image = li1.imagem
         
     }

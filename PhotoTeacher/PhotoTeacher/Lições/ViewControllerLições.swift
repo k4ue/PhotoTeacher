@@ -11,14 +11,26 @@ import UIKit
 class ViewControllerLições: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     var DataSource: [Lição] = []
-    
+    var LicaoViewSegueIdentifier = "LicaoViewSegue"
     override func viewDidLoad() {
         super.viewDidLoad()
         DataSource = criarLição()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let licao = sender as! Lição
+        
+        if segue.identifier == LicaoViewSegueIdentifier{
+            if let vc = segue.destination as? LicaoVC{
+                vc.LicaoName = licao
+            }
+        }
+        
+    }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return DataSource.count
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -31,6 +43,15 @@ class ViewControllerLições: UIViewController, UICollectionViewDelegate, UIColl
             cell = liçãoCell
         }
         
+        
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let licao = DataSource[indexPath.item]
+        
+        performSegue(withIdentifier: LicaoViewSegueIdentifier, sender: licao)
+    }
+
 }
