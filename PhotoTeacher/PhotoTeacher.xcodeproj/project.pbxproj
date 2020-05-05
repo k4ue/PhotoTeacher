@@ -21,6 +21,7 @@
 		38E7F054243E750F001D7FD4 /* Dicas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E7F053243E750F001D7FD4 /* Dicas.storyboard */; };
 		38E7F058243E765A001D7FD4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E7F057243E765A001D7FD4 /* Home.storyboard */; };
 		979C54D42448D93800D95FA6 /* ViewControllerLições.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979C54D32448D93800D95FA6 /* ViewControllerLições.swift */; };
+		97EB53362461F66C008D3CC7 /* LicaoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB53352461F66C008D3CC7 /* LicaoVC.swift */; };
 		97EB7B772450CEFA004B57A8 /* CollectionViewCellLições.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB7B762450CEFA004B57A8 /* CollectionViewCellLições.swift */; };
 		97EB7B7B2450DBB7004B57A8 /* ViewControllerDicas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB7B7A2450DBB7004B57A8 /* ViewControllerDicas.swift */; };
 		97EB7B7D2450DBFB004B57A8 /* CollectionViewCellDicas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB7B7C2450DBFB004B57A8 /* CollectionViewCellDicas.swift */; };
@@ -57,6 +58,7 @@
 		38E7F053243E750F001D7FD4 /* Dicas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dicas.storyboard; sourceTree = "<group>"; };
 		38E7F057243E765A001D7FD4 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		979C54D32448D93800D95FA6 /* ViewControllerLições.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewControllerLições.swift"; sourceTree = "<group>"; };
+		97EB53352461F66C008D3CC7 /* LicaoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LicaoVC.swift; path = "PhotoTeacher/Lições/LicaoVC.swift"; sourceTree = SOURCE_ROOT; };
 		97EB7B762450CEFA004B57A8 /* CollectionViewCellLições.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionViewCellLições.swift"; sourceTree = "<group>"; };
 		97EB7B7A2450DBB7004B57A8 /* ViewControllerDicas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDicas.swift; sourceTree = "<group>"; };
 		97EB7B7C2450DBFB004B57A8 /* CollectionViewCellDicas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellDicas.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				97EB7B8624536F71004B57A8 /* Lições.swift */,
 				979C54D32448D93800D95FA6 /* ViewControllerLições.swift */,
 				97EB7B762450CEFA004B57A8 /* CollectionViewCellLições.swift */,
+				97EB53352461F66C008D3CC7 /* LicaoVC.swift */,
 			);
 			path = "Lições";
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				97EB7B772450CEFA004B57A8 /* CollectionViewCellLições.swift in Sources */,
 				24304A0D2448DC2C00C65030 /* Camera.swift in Sources */,
 				38E7F02E243E5121001D7FD4 /* ViewController.swift in Sources */,
+				97EB53362461F66C008D3CC7 /* LicaoVC.swift in Sources */,
 				97EB7B8924536FE4004B57A8 /* ImageData.swift in Sources */,
 				38E7F02A243E5121001D7FD4 /* AppDelegate.swift in Sources */,
 				3898633A2452876C00D638EC /* Dicas.swift in Sources */,
