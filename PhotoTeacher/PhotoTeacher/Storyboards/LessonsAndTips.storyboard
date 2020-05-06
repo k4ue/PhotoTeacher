@@ -34,7 +34,7 @@
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.94999998807907104" contentMode="center" reuseIdentifier="CellLições" id="0MX-bL-2lh" customClass="CollectionViewCellLições" customModule="PhotoTeacher" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="398" height="125"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="y1b-4L-tV2">
                                             <rect key="frame" x="0.0" y="0.0" width="398" height="125"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

@@ -14,13 +14,14 @@ class DicaViewController: UIViewController {
     @IBOutlet weak var dicaTitulo: UILabel!
     @IBOutlet weak var dicaImagem: UIImageView!
     @IBOutlet weak var dicaTexto: UILabel!
-    
+    @IBOutlet weak var scrollView: UIScrollView!
     //Declaração da variável que vai receber a Dica enviada pela tela de Dicas
     var dicaName: Dica!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     //Chamada da função que configua os elementos da View
+        scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: dicaTexto.bottomAnchor).isActive = true
         viewConfigure()
     }
     //Função pegas dos elementos da dica e atribui aos componentes da View
