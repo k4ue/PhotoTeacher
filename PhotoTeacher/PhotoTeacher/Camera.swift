@@ -68,8 +68,7 @@ class 📷: UIViewController{
         switch AVCaptureDevice.authorizationStatus(for: .video) {
             
             case .authorized: // O usuario permitiu acesso a camera
-                //setupCamera(cameraPreferida: 📸) //O padrão é iniciar a camera traseira
-            break
+                setupCamera(cameraPreferida: 📸) //O padrão é iniciar a camera traseira
             //O usuario ainda não decidiu, mas fará a decisão agora.
             case .notDetermined:
                 AVCaptureDevice.requestAccess(for: .video) { granted in
