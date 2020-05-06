@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dUn-uB-ZLE">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,14 +12,14 @@
             <objects>
                 <viewController id="dUn-uB-ZLE" customClass="📷" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZkM-tQ-b65">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfF-fz-5Am">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uc8-AR-Pbz">
-                                        <rect key="frame" x="0.0" y="9" width="414" height="887"/>
+                                        <rect key="frame" x="0.0" y="9" width="414" height="727"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -31,25 +31,25 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXp-VX-RiU">
-                                <rect key="frame" x="188.66666666666666" y="59" width="37" height="30"/>
+                                <rect key="frame" x="188.66666666666666" y="15" width="37" height="30"/>
                                 <state key="normal" title="Flash"/>
                                 <connections>
                                     <action selector="alternarModoFlash:" destination="dUn-uB-ZLE" eventType="touchUpInside" id="tai-eu-ewy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AuC-rL-l2P">
-                                <rect key="frame" x="30" y="59" width="57" height="30"/>
+                                <rect key="frame" x="30" y="15" width="57" height="30"/>
                                 <state key="normal" title="Go back"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7v5-EM-Pme">
-                                <rect key="frame" x="342" y="59" width="42" height="30"/>
+                                <rect key="frame" x="342" y="15" width="42" height="30"/>
                                 <state key="normal" title="Grade"/>
                                 <connections>
                                     <action selector="alternarComposicaoAtual:" destination="dUn-uB-ZLE" eventType="touchUpInside" id="uwk-Sx-GAq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Az-uD-MuR" userLabel="Capturar">
-                                <rect key="frame" x="167" y="762" width="80" height="80"/>
+                                <rect key="frame" x="167" y="636" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="63N-RF-vBu"/>
                                     <constraint firstAttribute="width" constant="80" id="pdO-9D-loe"/>
@@ -60,7 +60,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qrw-Cy-prj">
-                                <rect key="frame" x="305" y="778" width="50" height="47.666666666666629"/>
+                                <rect key="frame" x="305" y="652" width="50" height="47.666666666666629"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="KKL-et-xdA"/>
                                     <constraint firstAttribute="height" constant="50" id="yUy-tm-sHK"/>
