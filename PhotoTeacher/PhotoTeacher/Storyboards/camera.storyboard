@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dUn-uB-ZLE">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -11,7 +10,7 @@
         <!--📷-->
         <scene sceneID="BoC-Nj-LAF">
             <objects>
-                <viewController id="dUn-uB-ZLE" customClass="📷" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController autoresizesArchivedViewToFullSize="NO" title="📷" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="overFullScreen" hidesBottomBarWhenPushed="YES" id="dUn-uB-ZLE" customClass="📷" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZkM-tQ-b65">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,6 +40,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AuC-rL-l2P">
                                 <rect key="frame" x="30" y="59" width="57" height="30"/>
                                 <state key="normal" title="Go back"/>
+                                <connections>
+                                    <action selector="fecharCamera:" destination="dUn-uB-ZLE" eventType="touchUpInside" id="JSw-P7-okb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7v5-EM-Pme">
                                 <rect key="frame" x="342" y="59" width="42" height="30"/>
@@ -92,6 +94,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="b9u-nO-kyS"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="cameraView" destination="nfF-fz-5Am" id="Wen-KP-zVa"/>
                         <outlet property="composicaoImageView" destination="Uc8-AR-Pbz" id="DsE-A6-cbV"/>

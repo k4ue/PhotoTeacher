@@ -53,5 +53,7 @@ class ViewControllerLições: UIViewController, UICollectionViewDelegate, UIColl
         
         performSegue(withIdentifier: LicaoViewSegueIdentifier, sender: licao)
     }
+    
+    
 
 }

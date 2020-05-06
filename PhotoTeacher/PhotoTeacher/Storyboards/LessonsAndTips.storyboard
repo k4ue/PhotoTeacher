@@ -178,6 +178,9 @@
                                                             <constraint firstAttribute="height" constant="45" id="Vjd-0g-khv"/>
                                                         </constraints>
                                                         <state key="normal" title="Câmera"/>
+                                                        <connections>
+                                                            <segue destination="IJj-AP-1Qt" kind="show" id="BTY-Ud-Wee"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -274,6 +277,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eYs-lx-F3d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+        <!--camera-->
+        <scene sceneID="mre-Sg-hWl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="camera" id="IJj-AP-1Qt" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Qjj-r1-u2S"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="psB-2B-1o0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2579" y="465"/>
         </scene>
     </scenes>
     <resources>

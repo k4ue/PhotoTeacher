@@ -60,14 +60,16 @@ class 📷: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+        
         // - MARK: Verificar permissão
         
         //Verifica o status de permissão e abre a câmera se, e somente se, o usuário autorizou previamente.
         switch AVCaptureDevice.authorizationStatus(for: .video) {
             
             case .authorized: // O usuario permitiu acesso a camera
-                setupCamera(cameraPreferida: 📸) //O padrão é iniciar a camera traseira
-            
+                //setupCamera(cameraPreferida: 📸) //O padrão é iniciar a camera traseira
+            break
             //O usuario ainda não decidiu, mas fará a decisão agora.
             case .notDetermined:
                 AVCaptureDevice.requestAccess(for: .video) { granted in
@@ -218,6 +220,11 @@ class 📷: UIViewController{
         }
     }
     
+    
+    @IBAction func fecharCamera(_ sender: Any) {
+        _ = navigationController?.popViewController(animated: true)
+    }
+    
     // - MARK: INICIAR CAMERA
     
     func setupCamera(cameraPreferida: AVCaptureDevice!){
@@ -243,6 +250,8 @@ class 📷: UIViewController{
         
     }
 }
+
+
 
 extension 📷: AVCapturePhotoCaptureDelegate{
     
