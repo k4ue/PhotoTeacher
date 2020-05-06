@@ -19,7 +19,7 @@ class CollectionViewCellLições: UICollectionViewCell {
     func configureLições (with lição: Lição) {
         TitleLabel.text = lição.titulo
         TextLabel.text = lição.texto2
-        ImageView.image = lição.imagem
+        ImageView.image = lição.imagemCapa
         ImageView.layer.cornerRadius = 10
     }
        

@@ -11,23 +11,36 @@ import UIKit
 class LicaoVC: UIViewController {
 
     @IBOutlet weak var tituloLabel: UILabel!
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var textoLabel: UILabel!
+    @IBOutlet weak var texto1: UILabel!
+    @IBOutlet weak var texto2: UILabel!
+    @IBOutlet weak var texto3: UILabel!
+    @IBOutlet weak var imagem1: UIImageView!
+    @IBOutlet weak var imagem2: UIImageView!
+    @IBOutlet weak var imagem3: UIImageView!
+    @IBOutlet weak var imagem4: UIImageView!
+    @IBOutlet weak var cameraBtn: UIButton!
     @IBOutlet weak var scrollView: UIScrollView!
-    
+    @IBOutlet weak var ContentView: UIView!
     var LicaoName: Lição!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         configureLicao()
-        
-        scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: textoLabel.bottomAnchor).isActive = true
+        //Configurar a ScrowView
+        scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: cameraBtn.bottomAnchor, constant: 10).isActive = true
     }
   
+    //Função para inicializar os elementos da tela de lição
     func configureLicao(){
         tituloLabel.text = LicaoName.titulo
-        imageView.image = LicaoName.imagem
-        textoLabel.text = LicaoName.texto2
+        imagem1.image = LicaoName.imagem1
+        texto1.text = LicaoName.texto1
+        imagem2.image = LicaoName.imagem2
+        texto2.text = LicaoName.texto2
+        imagem3.image = LicaoName.imagem3
+        texto3.text = LicaoName.texto3
+        imagem4.image = LicaoName.imagem4
+        
     }
 }
