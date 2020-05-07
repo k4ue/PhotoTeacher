@@ -75,7 +75,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="b9u-nO-kyS" firstAttribute="bottom" secondItem="5Az-uD-MuR" secondAttribute="bottom" constant="20" id="22R-SZ-0zM"/>
                             <constraint firstItem="b9u-nO-kyS" firstAttribute="bottom" secondItem="Qrw-Cy-prj" secondAttribute="bottom" constant="35" id="4mt-QT-H4d"/>
