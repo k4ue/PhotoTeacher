@@ -14,13 +14,14 @@ class LicaoVC: UIViewController {
     @IBOutlet weak var texto1: UILabel!
     @IBOutlet weak var texto2: UILabel!
     @IBOutlet weak var texto3: UILabel!
+    @IBOutlet weak var texto4: UILabel!
     @IBOutlet weak var imagem1: UIImageView!
     @IBOutlet weak var imagem2: UIImageView!
     @IBOutlet weak var imagem3: UIImageView!
     @IBOutlet weak var imagem4: UIImageView!
+    @IBOutlet weak var LeonImg: UIImageView!
     @IBOutlet weak var cameraBtn: UIButton!
     @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var ContentView: UIView!
     var LicaoName: Lição!
     
     override func viewDidLoad() {
@@ -41,6 +42,9 @@ class LicaoVC: UIViewController {
         imagem3.image = LicaoName.imagem3
         texto3.text = LicaoName.texto3
         imagem4.image = LicaoName.imagem4
+        texto4.text = LicaoName.texto4
+        LeonImg.image = LicaoName.Leon
+        cameraBtn.layer.cornerRadius = 10
         
     }
     
