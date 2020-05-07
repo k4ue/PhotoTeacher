@@ -110,18 +110,18 @@
             <objects>
                 <viewController id="e45-pV-7bA" customClass="LicaoVC" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EG7-hc-VXm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1820"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="mKC-kv-Abf">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1820"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wlJ-xp-cgr">
-                                        <rect key="frame" x="0.0" y="88" width="414" height="1129"/>
+                                        <rect key="frame" x="0.0" y="88" width="414" height="1649"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pH5-FY-GvR" userLabel="Content View">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1129"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1677"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMZ-Zn-sEv">
                                                         <rect key="frame" x="177.5" y="15" width="59.5" height="30"/>
@@ -130,49 +130,61 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1. O que e fotografia" translatesAutoresizingMaskIntoConstraints="NO" id="jSI-zx-1yn" userLabel="Image View1">
-                                                        <rect key="frame" x="10" y="60" width="394" height="200"/>
+                                                        <rect key="frame" x="10" y="60" width="394" height="295"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="200" id="IAf-WS-W87"/>
+                                                            <constraint firstAttribute="height" constant="295" id="IAf-WS-W87"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wD6-lv-NyE" userLabel="Texto1">
-                                                        <rect key="frame" x="10" y="280" width="394" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <rect key="frame" x="10" y="375" width="394" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="14. Recortar" translatesAutoresizingMaskIntoConstraints="NO" id="FNV-Oo-sqq" userLabel="Image View2">
-                                                        <rect key="frame" x="10" y="320.5" width="394" height="200"/>
+                                                        <rect key="frame" x="10" y="413" width="394" height="295"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="200" id="QIs-yg-atR"/>
+                                                            <constraint firstAttribute="height" constant="295" id="QIs-yg-atR"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3z-b1-6d0" userLabel="Texto2">
-                                                        <rect key="frame" x="10" y="540.5" width="394" height="21"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3z-b1-6d0" userLabel="Texto2">
+                                                        <rect key="frame" x="10" y="728" width="394" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2. Nocoes basicas" translatesAutoresizingMaskIntoConstraints="NO" id="LUW-zn-2aI" userLabel="Image View3">
-                                                        <rect key="frame" x="10" y="581.5" width="394" height="200"/>
+                                                        <rect key="frame" x="10" y="766" width="394" height="295"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="200" id="aCV-1o-K2E"/>
+                                                            <constraint firstAttribute="height" constant="295" id="aCV-1o-K2E"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueN-Ky-Lu6" userLabel="Texto3">
-                                                        <rect key="frame" x="10" y="801.5" width="394" height="21"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueN-Ky-Lu6" userLabel="Texto3">
+                                                        <rect key="frame" x="10" y="1081" width="394" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4. Nocoes - Regras" translatesAutoresizingMaskIntoConstraints="NO" id="CIW-y8-s8w">
-                                                        <rect key="frame" x="10" y="842.5" width="394" height="200"/>
+                                                        <rect key="frame" x="10" y="1119" width="394" height="295"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="200" id="QMr-ZB-pNS"/>
+                                                            <constraint firstAttribute="height" constant="295" id="QMr-ZB-pNS"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCc-IH-6fN" userLabel="Texto4">
+                                                        <rect key="frame" x="10" y="1434" width="394" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Leon1" translatesAutoresizingMaskIntoConstraints="NO" id="xOi-0z-jLX" userLabel="Leon">
+                                                        <rect key="frame" x="100" y="1472" width="214" height="150"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="150" id="o4j-2T-FDR"/>
                                                         </constraints>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Va-nZ-4Fb">
-                                                        <rect key="frame" x="82.5" y="1072.5" width="249" height="45"/>
+                                                        <rect key="frame" x="82.5" y="1622" width="249" height="45"/>
                                                         <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="45" id="Vjd-0g-khv"/>
@@ -182,7 +194,8 @@
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="1Va-nZ-4Fb" secondAttribute="bottom" constant="11.5" id="1eK-oz-pg6"/>
+                                                    <constraint firstAttribute="bottom" secondItem="1Va-nZ-4Fb" secondAttribute="bottom" constant="10" id="1eK-oz-pg6"/>
+                                                    <constraint firstItem="xCc-IH-6fN" firstAttribute="top" secondItem="CIW-y8-s8w" secondAttribute="bottom" constant="20" id="2lr-W8-VXO"/>
                                                     <constraint firstItem="jSI-zx-1yn" firstAttribute="leading" secondItem="pH5-FY-GvR" secondAttribute="leading" constant="10" id="30q-Pj-T3b"/>
                                                     <constraint firstItem="LUW-zn-2aI" firstAttribute="leading" secondItem="pH5-FY-GvR" secondAttribute="leading" constant="10" id="5fZ-tD-29B"/>
                                                     <constraint firstItem="ueN-Ky-Lu6" firstAttribute="top" secondItem="LUW-zn-2aI" secondAttribute="bottom" constant="20" id="5uu-Gk-8C4"/>
@@ -192,22 +205,27 @@
                                                     <constraint firstItem="c3z-b1-6d0" firstAttribute="top" secondItem="FNV-Oo-sqq" secondAttribute="bottom" constant="20" id="HSx-XZ-qH3"/>
                                                     <constraint firstItem="LUW-zn-2aI" firstAttribute="top" secondItem="c3z-b1-6d0" secondAttribute="bottom" constant="20" id="K6A-sZ-aj3"/>
                                                     <constraint firstItem="1Va-nZ-4Fb" firstAttribute="centerX" secondItem="pH5-FY-GvR" secondAttribute="centerX" id="LeE-sk-9lI"/>
+                                                    <constraint firstItem="xOi-0z-jLX" firstAttribute="leading" secondItem="pH5-FY-GvR" secondAttribute="leading" constant="100" id="Pp6-lx-gef"/>
+                                                    <constraint firstItem="xCc-IH-6fN" firstAttribute="leading" secondItem="pH5-FY-GvR" secondAttribute="leading" constant="10" id="QDa-Gs-voh"/>
                                                     <constraint firstItem="c3z-b1-6d0" firstAttribute="leading" secondItem="pH5-FY-GvR" secondAttribute="leading" constant="10" id="Rgu-h5-frN"/>
                                                     <constraint firstAttribute="trailing" secondItem="jSI-zx-1yn" secondAttribute="trailing" constant="10" id="VXQ-UN-V4v"/>
-                                                    <constraint firstItem="1Va-nZ-4Fb" firstAttribute="top" secondItem="CIW-y8-s8w" secondAttribute="bottom" constant="30" id="Vp8-Yq-IyP"/>
                                                     <constraint firstItem="CIW-y8-s8w" firstAttribute="leading" secondItem="pH5-FY-GvR" secondAttribute="leading" constant="10" id="Xma-oA-cXi"/>
                                                     <constraint firstItem="gMZ-Zn-sEv" firstAttribute="top" secondItem="pH5-FY-GvR" secondAttribute="top" constant="15" id="Ya6-LK-dsi"/>
                                                     <constraint firstItem="1Va-nZ-4Fb" firstAttribute="width" secondItem="pH5-FY-GvR" secondAttribute="width" multiplier="0.600644" id="ZbZ-iL-1wa"/>
                                                     <constraint firstAttribute="trailing" secondItem="c3z-b1-6d0" secondAttribute="trailing" constant="10" id="bEu-fr-iws"/>
                                                     <constraint firstItem="jSI-zx-1yn" firstAttribute="top" secondItem="gMZ-Zn-sEv" secondAttribute="bottom" constant="15" id="cDB-2x-3Hs"/>
+                                                    <constraint firstAttribute="trailing" secondItem="xCc-IH-6fN" secondAttribute="trailing" constant="10" id="dCW-pe-ddg"/>
                                                     <constraint firstAttribute="trailing" secondItem="CIW-y8-s8w" secondAttribute="trailing" constant="10" id="ebC-f0-oz6"/>
                                                     <constraint firstItem="wD6-lv-NyE" firstAttribute="top" secondItem="jSI-zx-1yn" secondAttribute="bottom" constant="20" id="gIE-V3-iAI"/>
                                                     <constraint firstAttribute="trailing" secondItem="LUW-zn-2aI" secondAttribute="trailing" constant="10" id="hA1-pe-ke5"/>
+                                                    <constraint firstItem="xOi-0z-jLX" firstAttribute="top" secondItem="xCc-IH-6fN" secondAttribute="bottom" constant="20" id="ja8-MA-3zz"/>
                                                     <constraint firstAttribute="trailing" secondItem="FNV-Oo-sqq" secondAttribute="trailing" constant="10" id="jhx-9e-yP0"/>
+                                                    <constraint firstAttribute="trailing" secondItem="xOi-0z-jLX" secondAttribute="trailing" constant="100" id="m6o-MO-r41"/>
                                                     <constraint firstItem="wD6-lv-NyE" firstAttribute="leading" secondItem="pH5-FY-GvR" secondAttribute="leading" constant="10" id="o9F-Tc-teB"/>
                                                     <constraint firstItem="CIW-y8-s8w" firstAttribute="top" secondItem="ueN-Ky-Lu6" secondAttribute="bottom" constant="20" id="pcl-FL-5m6"/>
                                                     <constraint firstAttribute="trailing" secondItem="wD6-lv-NyE" secondAttribute="trailing" constant="10" id="qH8-PN-OxO"/>
                                                     <constraint firstItem="gMZ-Zn-sEv" firstAttribute="centerX" secondItem="pH5-FY-GvR" secondAttribute="centerX" id="saD-Z8-B7Y"/>
+                                                    <constraint firstItem="1Va-nZ-4Fb" firstAttribute="top" secondItem="xOi-0z-jLX" secondAttribute="bottom" id="zR0-BL-RX7"/>
                                                     <constraint firstAttribute="trailing" secondItem="ueN-Ky-Lu6" secondAttribute="trailing" constant="10" id="zd9-K4-8Dy"/>
                                                 </constraints>
                                             </view>
@@ -236,9 +254,9 @@
                         <viewLayoutGuide key="safeArea" id="NF1-Jj-efN"/>
                     </view>
                     <navigationItem key="navigationItem" id="F4m-Kp-wCh"/>
-                    <size key="freeformSize" width="414" height="1300"/>
+                    <size key="freeformSize" width="414" height="1820"/>
                     <connections>
-                        <outlet property="ContentView" destination="pH5-FY-GvR" id="0xl-hn-wfQ"/>
+                        <outlet property="LeonImg" destination="xOi-0z-jLX" id="Tq4-r7-9Wq"/>
                         <outlet property="cameraBtn" destination="1Va-nZ-4Fb" id="zGA-23-33E"/>
                         <outlet property="imagem1" destination="jSI-zx-1yn" id="jh3-q0-8CU"/>
                         <outlet property="imagem2" destination="FNV-Oo-sqq" id="18Z-HV-wJa"/>
@@ -247,7 +265,8 @@
                         <outlet property="scrollView" destination="wlJ-xp-cgr" id="19A-eR-dvn"/>
                         <outlet property="texto1" destination="wD6-lv-NyE" id="o2X-f7-xCv"/>
                         <outlet property="texto2" destination="c3z-b1-6d0" id="qnI-zj-Afi"/>
-                        <outlet property="texto3" destination="ueN-Ky-Lu6" id="KhI-iR-iNF"/>
+                        <outlet property="texto3" destination="ueN-Ky-Lu6" id="1xo-SD-tUu"/>
+                        <outlet property="texto4" destination="xCc-IH-6fN" id="B94-iQ-xEW"/>
                         <outlet property="tituloLabel" destination="gMZ-Zn-sEv" id="lOp-XT-cKa"/>
                     </connections>
                 </viewController>
@@ -281,6 +300,7 @@
         <image name="14. Recortar" width="208.5" height="208.5"/>
         <image name="2. Nocoes basicas" width="120" height="120"/>
         <image name="4. Nocoes - Regras" width="144" height="144"/>
+        <image name="Leon1" width="848" height="636"/>
         <image name="Photo" width="1333.5" height="750"/>
     </resources>
 </document>
