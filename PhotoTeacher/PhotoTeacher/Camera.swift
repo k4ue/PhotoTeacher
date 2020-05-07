@@ -141,6 +141,8 @@ class 📷: UIViewController{
             @unknown default:
                 fatalError() //XABLAU 🔥
             }
+            
+            setupCamera(cameraPreferida: 📸)
         }
     }
     
@@ -231,7 +233,7 @@ class 📷: UIViewController{
     func setupCamera(cameraPreferida: AVCaptureDevice!){
         let dispositivoDeCaptura = cameraPreferida
         do{
-            let input = try AVCaptureDeviceInput(device: dispositivoDeCaptura!) //diz que a imagem vira da camera setada
+                let input = try AVCaptureDeviceInput(device: dispositivoDeCaptura!) //diz que a imagem vira da camera setada
             sessaoDeCaptura = AVCaptureSession() //declara a sessao de captura
             sessaoDeCaptura?.addInput(input) //Seta a camera recebida como entrada da sessao
             videoPreviewLayer = AVCaptureVideoPreviewLayer(session: sessaoDeCaptura!)
@@ -239,6 +241,7 @@ class 📷: UIViewController{
             cameraView.layer.addSublayer(videoPreviewLayer!) //Adiciona o video para ser visto
             sessaoDeCaptura?.startRunning() //inicia a sessao
             view.sendSubviewToBack(cameraView) //para que a camera não cubra os botoes
+            cameraView.bringSubviewToFront(composicaoImageView)
         } catch{
             print("ERRO 😱")
         }
