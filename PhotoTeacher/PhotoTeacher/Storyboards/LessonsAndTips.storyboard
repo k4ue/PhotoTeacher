@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="liJ-GP-5f7">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,17 +13,17 @@
             <objects>
                 <viewController storyboardIdentifier="ViewControllerLessons" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zue-Wn-9V9" customClass="ViewControllerLições" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WTb-ZN-CFX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lições" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFm-h2-vjM">
-                                <rect key="frame" x="171.5" y="98" width="71" height="30"/>
+                                <rect key="frame" x="412.5" y="54" width="71" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="UWh-F3-eqN">
-                                <rect key="frame" x="8" y="141" width="398" height="672"/>
+                                <rect key="frame" x="52" y="97" width="792" height="247"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jox-q3-DL4">
                                     <size key="itemSize" width="398" height="125"/>
@@ -33,7 +33,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.94999998807907104" contentMode="center" reuseIdentifier="CellLições" id="0MX-bL-2lh" customClass="CollectionViewCellLições" customModule="PhotoTeacher" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="398" height="125"/>
+                                        <rect key="frame" x="197" y="0.0" width="398" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="y1b-4L-tV2">
                                             <rect key="frame" x="0.0" y="0.0" width="398" height="125"/>
@@ -118,73 +118,73 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wlJ-xp-cgr">
-                                        <rect key="frame" x="0.0" y="88" width="414" height="1649"/>
+                                        <rect key="frame" x="44" y="44" width="326" height="1706"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pH5-FY-GvR" userLabel="Content View">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1677"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="326" height="1677"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMZ-Zn-sEv">
-                                                        <rect key="frame" x="177.5" y="15" width="59.5" height="30"/>
+                                                        <rect key="frame" x="133.5" y="15" width="59.5" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1. O que e fotografia" translatesAutoresizingMaskIntoConstraints="NO" id="jSI-zx-1yn" userLabel="Image View1">
-                                                        <rect key="frame" x="10" y="60" width="394" height="295"/>
+                                                        <rect key="frame" x="10" y="60" width="306" height="295"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="295" id="IAf-WS-W87"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wD6-lv-NyE" userLabel="Texto1">
-                                                        <rect key="frame" x="10" y="375" width="394" height="18"/>
+                                                        <rect key="frame" x="10" y="375" width="306" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="14. Recortar" translatesAutoresizingMaskIntoConstraints="NO" id="FNV-Oo-sqq" userLabel="Image View2">
-                                                        <rect key="frame" x="10" y="413" width="394" height="295"/>
+                                                        <rect key="frame" x="10" y="413" width="306" height="295"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="295" id="QIs-yg-atR"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3z-b1-6d0" userLabel="Texto2">
-                                                        <rect key="frame" x="10" y="728" width="394" height="18"/>
+                                                        <rect key="frame" x="10" y="728" width="306" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2. Nocoes basicas" translatesAutoresizingMaskIntoConstraints="NO" id="LUW-zn-2aI" userLabel="Image View3">
-                                                        <rect key="frame" x="10" y="766" width="394" height="295"/>
+                                                        <rect key="frame" x="10" y="766" width="306" height="295"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="295" id="aCV-1o-K2E"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueN-Ky-Lu6" userLabel="Texto3">
-                                                        <rect key="frame" x="10" y="1081" width="394" height="18"/>
+                                                        <rect key="frame" x="10" y="1081" width="306" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4. Nocoes - Regras" translatesAutoresizingMaskIntoConstraints="NO" id="CIW-y8-s8w">
-                                                        <rect key="frame" x="10" y="1119" width="394" height="295"/>
+                                                        <rect key="frame" x="10" y="1119" width="306" height="295"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="295" id="QMr-ZB-pNS"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCc-IH-6fN" userLabel="Texto4">
-                                                        <rect key="frame" x="10" y="1434" width="394" height="18"/>
+                                                        <rect key="frame" x="10" y="1434" width="306" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Leon1" translatesAutoresizingMaskIntoConstraints="NO" id="xOi-0z-jLX" userLabel="Leon">
-                                                        <rect key="frame" x="100" y="1472" width="214" height="150"/>
+                                                        <rect key="frame" x="100" y="1472" width="126" height="150"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="150" id="o4j-2T-FDR"/>
                                                         </constraints>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Va-nZ-4Fb">
-                                                        <rect key="frame" x="82.5" y="1622" width="249" height="45"/>
+                                                        <rect key="frame" x="65" y="1622" width="196" height="45"/>
                                                         <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="45" id="Vjd-0g-khv"/>
@@ -285,7 +285,7 @@
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aXh-TW-7gX">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

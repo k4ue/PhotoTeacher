@@ -16,9 +16,6 @@ import UIKit
  */
 struct Images {
 
-    static let acessorios = UIImage(named: "image5.jpg")
-    static let fotografia = UIImage(named: "Photo.jpg")
-    
     //Declaração das imagens do mascote
     static let Leon1 = UIImage(named: "Leon1.jpg")
     static let Leon2 = UIImage(named: "Leon2.jpg")
@@ -43,9 +40,10 @@ struct Images {
     static let ImgCortarA = UIImage(named: "Cortar a.jpg")
     static let ImgCortar = UIImage(named: "Cortar.jpg")
     static let ImgPexels = UIImage(named: "pexels-photo-2651248.jpg")
-    static let L1Img1 = UIImage(named: "L1ImageView1.jpg")
-    static let L1Img2 = UIImage(named: "L1ImageView2.jpg")
-    static let L1Img3 = UIImage(named: "L1ImageView3.jpg")
+    static let L2Img1 = UIImage(named: "L2ImageView1.jpg")
+    static let L2Img2 = UIImage(named: "L2ImageView2.jpg")
+    static let L2Img3 = UIImage(named: "L2ImageView3.jpg")
+    static let L2Img4 = UIImage(named: "L2ImageView4.jpg")
         
     //Declaração de imagens das Dicas
     static let ImgDica1 = UIImage(named: "1. Edite.jpg")
