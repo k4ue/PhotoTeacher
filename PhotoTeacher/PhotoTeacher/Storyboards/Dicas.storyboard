@@ -228,7 +228,7 @@
         <scene sceneID="7em-1G-Mwj">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fkp-s4-YuE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Dicas" id="e1I-Lf-UVE"/>
+                    <tabBarItem key="tabBarItem" title="Dicas" image="lightbulb.fill" catalog="system" selectedImage="lightbulb.fill" id="e1I-Lf-UVE"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NAb-ev-Dt5">
@@ -245,4 +245,7 @@
             <point key="canvasLocation" x="212" y="130"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lightbulb.fill" catalog="system" width="113" height="128"/>
+    </resources>
 </document>

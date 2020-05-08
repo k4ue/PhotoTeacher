@@ -336,11 +336,11 @@
             </objects>
             <point key="canvasLocation" x="1911.594202898551" y="126.5625"/>
         </scene>
-        <!--Study-->
+        <!--Lições-->
         <scene sceneID="GvQ-BQ-DnK">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="liJ-GP-5f7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Study" id="JKn-ng-eVE"/>
+                    <tabBarItem key="tabBarItem" title="Lições" image="book.fill" catalog="system" selectedImage="book.fill" id="JKn-ng-eVE"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aXh-TW-7gX">
@@ -374,5 +374,6 @@
         <image name="L2ImageView4" width="208" height="156"/>
         <image name="Leon1" width="848" height="636"/>
         <image name="Photo" width="1333.5" height="750"/>
+        <image name="book.fill" catalog="system" width="128" height="100"/>
     </resources>
 </document>
