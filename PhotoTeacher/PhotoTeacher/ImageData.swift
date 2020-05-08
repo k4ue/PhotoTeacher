@@ -24,7 +24,6 @@ struct Images {
     static let Leon2 = UIImage(named: "Leon2.jpg")
     static let Leon3 = UIImage(named: "Leon3.jpg")
     static let Leon4 = UIImage(named: "Leon4.jpg")
-    static let LeonInitial = UIImage(named: "LeonInitial.jpg")
     
     //Declaração de imagens das Lições
     static let ImgLicao1 = UIImage(named: "1. O que e fotografia.jpg")
@@ -76,6 +75,7 @@ struct Images {
     static let L9Img2 = UIImage(named: "L9ImageView2.png")
     static let L9Img3 = UIImage(named: "L9ImageView3.png")
     static let L9Img4 = UIImage(named: "L9ImageView4.png")
+
         
     //Declaração de imagens das Dicas
     static let ImgDica1 = UIImage(named: "1. Edite.jpg")

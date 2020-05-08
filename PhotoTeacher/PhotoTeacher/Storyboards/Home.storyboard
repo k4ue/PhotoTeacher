@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -112,87 +111,35 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="D9x-9E-fDO" firstAttribute="leading" secondItem="eTk-gZ-kHh" secondAttribute="leading" id="9eo-nK-Mf6"/>
-                                    <constraint firstAttribute="bottom" secondItem="D9x-9E-fDO" secondAttribute="bottom" constant="-1" id="ORe-Ob-ixm"/>
-                                    <constraint firstItem="D9x-9E-fDO" firstAttribute="height" secondItem="eTk-gZ-kHh" secondAttribute="height" multiplier="1.00414" priority="250" id="VpI-6P-GM8"/>
-                                    <constraint firstItem="D9x-9E-fDO" firstAttribute="top" secondItem="eTk-gZ-kHh" secondAttribute="top" constant="-2" id="ajp-Fo-SyD"/>
-                                    <constraint firstItem="D9x-9E-fDO" firstAttribute="width" secondItem="eTk-gZ-kHh" secondAttribute="width" id="eiq-0c-bS5"/>
-                                    <constraint firstAttribute="trailing" secondItem="D9x-9E-fDO" secondAttribute="trailing" id="hzu-Ie-jn7"/>
+                                    <constraint firstAttribute="height" constant="416" id="Ol9-5d-JdZ"/>
+                                    <constraint firstAttribute="width" constant="374" id="VxD-kY-Gx6"/>
                                 </constraints>
+
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="eTk-gZ-kHh" firstAttribute="leading" secondItem="wvJ-1v-pbn" secondAttribute="leading" id="Emt-ts-iH2"/>
-                            <constraint firstItem="eTk-gZ-kHh" firstAttribute="trailing" secondItem="wvJ-1v-pbn" secondAttribute="trailing" id="b90-bC-2h8"/>
-                            <constraint firstItem="eTk-gZ-kHh" firstAttribute="bottom" secondItem="wvJ-1v-pbn" secondAttribute="bottom" id="hbj-qq-Bmd"/>
-                            <constraint firstItem="eTk-gZ-kHh" firstAttribute="top" secondItem="wvJ-1v-pbn" secondAttribute="top" id="vxG-wL-0xB"/>
+                            <constraint firstItem="wvJ-1v-pbn" firstAttribute="trailing" secondItem="irm-JB-00h" secondAttribute="trailing" constant="20" id="3gM-bo-hIu"/>
+                            <constraint firstItem="irm-JB-00h" firstAttribute="leading" secondItem="wvJ-1v-pbn" secondAttribute="leading" constant="20" id="BAI-9D-8dH"/>
+                            <constraint firstItem="kdK-lx-Qzw" firstAttribute="top" secondItem="irm-JB-00h" secondAttribute="bottom" constant="29" id="BWD-ta-WbN"/>
+                            <constraint firstItem="wvJ-1v-pbn" firstAttribute="trailing" secondItem="kdK-lx-Qzw" secondAttribute="trailing" constant="20" id="Ec0-s7-68W"/>
+                            <constraint firstItem="DHs-1t-pTH" firstAttribute="top" secondItem="wvJ-1v-pbn" secondAttribute="top" constant="62" id="O3J-b6-8yd"/>
+                            <constraint firstItem="DHs-1t-pTH" firstAttribute="centerX" secondItem="Dc5-JH-WLg" secondAttribute="centerX" id="c6D-Gp-CrQ"/>
+                            <constraint firstItem="irm-JB-00h" firstAttribute="top" secondItem="DHs-1t-pTH" secondAttribute="bottom" constant="44" id="f1A-Eb-8P8"/>
+                            <constraint firstItem="kdK-lx-Qzw" firstAttribute="leading" secondItem="wvJ-1v-pbn" secondAttribute="leading" constant="20" id="vxT-9O-w9O"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wvJ-1v-pbn"/>
                     </view>
                     <navigationItem key="navigationItem" id="PaL-ba-1Ng"/>
                     <connections>
-                        <outlet property="collectionView" destination="W85-3H-i7P" id="Jbs-X4-KQT"/>
-                        <outlet property="scrollView" destination="eTk-gZ-kHh" id="iMz-RP-9zt"/>
-                        <segue destination="bo2-qa-o5z" kind="show" identifier="HomeCellSegueIdentifier" id="7x7-ZK-SfV"/>
+                        <outlet property="conteudoLicaoLabel" destination="kdK-lx-Qzw" id="sFV-hS-gGy"/>
+                        <outlet property="imageViewInicial" destination="irm-JB-00h" id="6Xm-xp-j6Y"/>
+                        <outlet property="tituloLicaoLabel" destination="DHs-1t-pTH" id="1LC-12-7uS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j1w-tZ-mzx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1057.9710144927537" y="85.714285714285708"/>
-        </scene>
-        <!--Home ImageVC-->
-        <scene sceneID="ErI-4S-LCM">
-            <objects>
-                <viewController id="bo2-qa-o5z" customClass="HomeImageVC" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="jQ4-gP-2pi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zOY-Pm-dMY">
-                                <rect key="frame" x="20" y="298" width="374" height="300"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="3Dq-Ed-hfD">
-                                        <variation key="heightClass=compact-widthClass=regular" constant="300"/>
-                                    </constraint>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="zOY-Pm-dMY" firstAttribute="leading" secondItem="fEO-Ha-cRA" secondAttribute="leading" constant="20" id="0TE-pX-KS0">
-                                <variation key="heightClass=compact-widthClass=regular" constant="150"/>
-                            </constraint>
-                            <constraint firstItem="zOY-Pm-dMY" firstAttribute="centerX" secondItem="jQ4-gP-2pi" secondAttribute="centerX" id="K4V-IH-Ty7"/>
-                            <constraint firstItem="zOY-Pm-dMY" firstAttribute="centerY" secondItem="jQ4-gP-2pi" secondAttribute="centerY" id="Khw-iK-tdJ"/>
-                            <constraint firstItem="fEO-Ha-cRA" firstAttribute="trailing" secondItem="zOY-Pm-dMY" secondAttribute="trailing" constant="20" id="NWz-FB-i4i">
-                                <variation key="heightClass=compact-widthClass=regular" constant="150"/>
-                            </constraint>
-                            <constraint firstItem="zOY-Pm-dMY" firstAttribute="top" secondItem="fEO-Ha-cRA" secondAttribute="top" constant="5" id="eCY-Db-UiS">
-                                <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
-                            </constraint>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="fEO-Ha-cRA"/>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="eCY-Db-UiS"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=compact-widthClass=regular">
-                            <mask key="constraints">
-                                <exclude reference="Khw-iK-tdJ"/>
-                                <include reference="eCY-Db-UiS"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <navigationItem key="navigationItem" id="qFW-Nb-MPq"/>
-                    <connections>
-                        <outlet property="ImageView" destination="zOY-Pm-dMY" id="9Rr-ta-X0A"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="c4d-8D-DAP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1945" y="86"/>
         </scene>
         <!--Home-->
         <scene sceneID="pXd-K1-i7T">
@@ -215,7 +162,4 @@
             <point key="canvasLocation" x="147.82608695652175" y="85.714285714285708"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="LeonInitial" width="681.33331298828125" height="908.33331298828125"/>
-    </resources>
 </document>
