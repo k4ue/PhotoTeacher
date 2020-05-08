@@ -38,7 +38,7 @@ class ViewControllerLições: UIViewController, UICollectionViewDelegate, UIColl
         
         if let liçãoCell = collectionView.dequeueReusableCell(withReuseIdentifier: "CellLições", for: indexPath) as? CollectionViewCellLições {
             
-            liçãoCell.configureLições(with: DataSource[indexPath.item])
+            liçãoCell.configurarLições(with: DataSource[indexPath.item])
             
             cell = liçãoCell
         }

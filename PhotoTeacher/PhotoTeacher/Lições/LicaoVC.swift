@@ -11,6 +11,7 @@ import UIKit
 class LicaoVC: UIViewController {
 
     @IBOutlet weak var tituloLabel: UILabel!
+    @IBOutlet weak var textoOp: UILabel!
     @IBOutlet weak var texto1: UILabel!
     @IBOutlet weak var texto2: UILabel!
     @IBOutlet weak var texto3: UILabel!
@@ -27,13 +28,13 @@ class LicaoVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        configureLicao()
-        //Configurar a ScrowView
+        configurarLicao()
+        //Configurar a ScrollView
         scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: cameraBtn.bottomAnchor, constant: 10).isActive = true
     }
   
     //Função para inicializar os elementos da tela de lição
-    func configureLicao(){
+    func configurarLicao(){
         tituloLabel.text = LicaoName.titulo
         imagem1.image = LicaoName.imagem1
         texto1.text = LicaoName.texto1
@@ -46,6 +47,9 @@ class LicaoVC: UIViewController {
         LeonImg.image = LicaoName.Leon
         cameraBtn.layer.cornerRadius = 10
         
+        if(textoOp.text != ""){
+            textoOp.text = LicaoName.textoOp
+        }
     }
     
 }
