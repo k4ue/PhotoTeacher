@@ -150,9 +150,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zOY-Pm-dMY">
-                                <rect key="frame" x="20" y="298" width="374" height="300"/>
+                                <rect key="frame" x="20" y="261" width="374" height="374"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="3Dq-Ed-hfD">
+                                    <constraint firstAttribute="height" constant="374" id="3Dq-Ed-hfD">
                                         <variation key="heightClass=compact-widthClass=regular" constant="300"/>
                                     </constraint>
                                 </constraints>

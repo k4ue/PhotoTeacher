@@ -23,7 +23,36 @@ struct Lição{
     var Leon: UIImage
 }
 
-let li1 = Lição(titulo: "1. O que é fotografia?", textoOp: "", texto1: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", texto2: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?", texto3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",texto4: "", imagemCapa: Images.ImgLicao1!, imagem1: Images.ImgLicao14!, imagem2: Images.ImgLicao13!, imagem3: Images.ImgLicao11!, imagem4: Images.ImgLicao8!, Leon: Images.Leon1!)
+let li1 = Lição(titulo: "1. O que é fotografia?", textoOp: "", texto1: """
+    Antes de você começar a fotografar, é muito importante você aprender sobre a sua câmera, como configurar ela e ativar suas principais ferramentas.
+
+    O aplicativo de câmera é um aplicativo cheio de ferramentas como:
+    - Flash
+    - Zoom
+    - Timer (temporizador)
+    - Modo Live (nem todos os iPhones tem)
+    - Efeitos
+    - E tantos outros
+    """, texto2: """
+    Cada ferramenta serve para alguma coisa, mas você sabia que tem como ativar mais 2 ferramentas chaves para uma foto melhor?
+
+    Acessando as configurações da sua câmera
+
+    1.Vá no aplicativo ajustes e desce até achar um “câmera”
+
+    2.Entra nessa configuração. Dentro você verá várias coisas como: Ajustar vídeo, ativar grade, o formato que cada foto salva e afins
+
+    3.Ative o HDR, deixe-o em automático. Você pode deixar também o manter foto normal. Ele serve para ajustar as propriedades da foto, deixando-a mais detalhada
+
+    4.Ative a grade. A grade é um elemento chave na hora de fotografar pois ela é a “regra dos terços” que te ajudará a tirar fotos mais centralizadas, mais interessantes e mais retas.
+
+    5.Você pode configurar a qualidade dos vídeos do seu celular, só cuidado que quanto maior você deixar, mais espaço ele tomará do seu celular.
+    """, texto3: "Essas foram algumas coisas que você pode fazer para alavancar suas fotos e deixá-las mais interessantes.",texto4: """
+    Agora está na hora de você praticar. Vá até os ajustes do seu iPhone e mude as configurações da sua câmera, claro, apenas se você quiser também.
+
+    E aí, curtiu essa nossa lição? Vamos agora aprender sobre os conceitos e as propriedades da fotografia para você nunca mais tirar fotos do mesmo jeito que sempre as tirou.
+    """, imagemCapa: Images.ImgLicao1!, imagem1: Images.L1Img1!, imagem2: Images.L1Img2!, imagem3: Images.L1Img3!, imagem4: Images.L1Img4!, Leon: Images.Leon1!)
+
     let li2 = Lição(titulo: "2. Noções de fotografia", textoOp: "", texto1: """
     Dentro da fotografia há várias propriedades, conceitos, técnicas e algumas regrinhas além de dicas que melhoram suas fotos, deixando-as únicas, inesquecíveis e surpreendentes.
 
@@ -62,7 +91,6 @@ let li1 = Lição(titulo: "1. O que é fotografia?", textoOp: "", texto1: "Sed u
     Frias – incluem verde, azul e violeta. São mais moderadas, calmas e suaves, trazem, geralmente, uma sensação de frio.
 
     Ei! Está percebendo que está bem diretas, resumidas e claras as informações? Essa é a nossa intenção nesta lição, não se esqueça de não ficar querendo saber os detalhes logo de primeira, você ainda verá todos. Ok?
-
     """, texto4: """
     Regras básicas na fotografia:
 
@@ -83,8 +111,8 @@ let li1 = Lição(titulo: "1. O que é fotografia?", textoOp: "", texto1: "Sed u
     E aí! O que achou desses conceitos? São bastantes né?!
 
     O mundo da fotografia é grande e vasto, por isso, vamos te ensinar cada coisa de um jeito mais aprofundado. Vamos lá?!
-
 """, imagemCapa: Images.ImgLicao2!, imagem1: Images.L2Img1!, imagem2: Images.L2Img2!, imagem3: Images.L2Img3!, imagem4: Images.L2Img4!, Leon: Images.Leon1!)
+
 let li3 = Lição(titulo: "3. Noções - celular", textoOp: """
     Para começar, é muito importante, além de entendermos que há vários conceitos, propriedades e regras na fotografia, o mesmo vale para o seu celular.
 
@@ -166,6 +194,7 @@ let li3 = Lição(titulo: "3. Noções - celular", textoOp: """
 
     Preparado para as próximas lições? Vamos nessa.
     """, imagemCapa: Images.ImgLicao3!, imagem1: Images.L3Img1!, imagem2: Images.L3Img2!, imagem3: Images.L3Img3!, imagem4: Images.L3Img4!,Leon: Images.Leon2!)
+
     let li4 = Lição(titulo: "4. Orientação da foto", textoOp: "", texto1: """
     Orientação da foto é o termo usado para as fotos na posição vertical ou horizontal, mas você sabe como se usa cada uma?
 
@@ -186,6 +215,7 @@ let li3 = Lição(titulo: "3. Noções - celular", textoOp: """
 
     Nos vemos em breve! Até mais.
     """, imagemCapa: Images.ImgLicao4!, imagem1: Images.L4Img1!, imagem2: Images.L4Img2!, imagem3: Images.L4Img3!, imagem4: Images.L4Img4!, Leon: Images.Leon4!)
+
     let li5 = Lição(titulo: "5. Iluminação", textoOp: """
     Como vimos em nossos básicas, a iluminação é muito importante para a foto, já que a foto vem da mesma.
 
@@ -219,6 +249,7 @@ let li3 = Lição(titulo: "3. Noções - celular", textoOp: """
 
     E vou te dar exemplos sobre como criar esses efeitos nas imagens com cada tipo de iluminação mostrada na lição de hoje.
     """, imagemCapa: Images.ImgLicao5!, imagem1: Images.L5Img1!, imagem2: Images.L5Img2!, imagem3: Images.L5Img3!, imagem4: Images.L5Img4!, Leon: Images.Leon3!)
+
     let li6 = Lição(titulo: "6. Iluminação: estilos de luz", textoOp: """
     Luz dura e luz suave:
 
@@ -280,6 +311,7 @@ let li3 = Lição(titulo: "3. Noções - celular", textoOp: """
 
     Agora que você já sabe sobre os tipos de luz, vamos aprender na próxima lição como usar ao seu favor e conseguir aproveitar melhor a iluminação.
     """, imagemCapa: Images.ImgLicao6!, imagem1: Images.L6Img1!, imagem2: Images.L6Img2!, imagem3: Images.L6Img3!, imagem4: Images.L6Img4!, Leon: Images.Leon2!)
+
     let li7 = Lição(titulo: "7. Como usar a luz", textoOp: """
     Luz natural:
 
@@ -328,6 +360,7 @@ let li3 = Lição(titulo: "3. Noções - celular", textoOp: """
 
     Depois aponte essa lâmpada para a parede ou coloque uma folha branca na frente dele, você perceberá que a sombre já não está mais tão nítida e forte como antes.
     """, imagemCapa: Images.ImgLicao7!, imagem1: Images.L7Img1!, imagem2: Images.L7Img2!, imagem3: Images.L7Img3!, imagem4: Images.L7Img4!, Leon: Images.Leon4!)
+
     let li8 = Lição(titulo: "8. Exposição", textoOp: """
     Nas últimas lições nós aprendemos sobre a iluminação e a exposição nada mais é que um elemento dela.
 
@@ -359,6 +392,7 @@ let li3 = Lição(titulo: "3. Noções - celular", textoOp: """
     Quando você ver que a foto super expôs e a sua cara ou a cara de alguém está mega clara sem mostrar os detalhes, a dica é você clicar na parte que está exposta, que está mais clara. Seja sua cara, a cara de alguém ou a paisagem também porque não adianta o rosto estar ótimo e o céu branco.
     Se a foto estiver subexposta, clique na parte que está mais escura.
     """, imagemCapa: Images.ImgLicao8!, imagem1: Images.L8Img1!, imagem2: Images.L8Img2!, imagem3: Images.L8Img3!, imagem4: Images.L8Img4!, Leon: Images.Leon1!)
+
     let li9 = Lição(titulo: "9. Defina o foco da câmera", textoOp: "Imagina que você vê uma cena legal, saca o celular do bolso, bate uma foto e… está toda borrada! Bate outra, mesma coisa. Tenta mais uma… nada. Simplesmente a câmera do celular está sem foco, não importa o que você faça. ", texto1: """
     O foco ele é muito importante na fotografia, pois ele é um tipo de configuração que determina o quão nítido o assunto principal estará na imagem.
 
@@ -371,15 +405,76 @@ let li3 = Lição(titulo: "3. Noções - celular", textoOp: """
     Dica: Se você quiser, você pode bloquear o seu foco tocando por 5 segundos em uma parte da tela até aparecer bloqueio AE/A e, após fazer isso, você pode definir a exposição.
 
     Agora chegou a hora de você testar e colocar em prática o que aprendeu.
-    """, imagemCapa: Images.ImgLicao9!, imagem1: Images.ImgLicao14!, imagem2: Images.ImgLicao13!, imagem3: Images.ImgLicao11!, imagem4: Images.ImgLicao8!, Leon: Images.Leon3!)
-    let li10 = Lição(titulo: "10. Perspectiva", textoOp: "", texto1: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", texto2: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?", texto3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", texto4:"", imagemCapa: Images.ImgLicao10!, imagem1: Images.ImgLicao14!, imagem2: Images.ImgLicao13!, imagem3: Images.ImgLicao11!, imagem4: Images.ImgLicao8!, Leon: Images.Leon1!)
-    let li11 = Lição(titulo: "11. Suas fotos profissionais", textoOp: "", texto1: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", texto2: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?", texto3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", texto4:"", imagemCapa: Images.ImgLicao11!, imagem1: Images.ImgLicao14!, imagem2: Images.ImgLicao13!, imagem3: Images.ImgLicao11!, imagem4: Images.ImgLicao8!, Leon: Images.Leon1!)
-    let li12 = Lição(titulo: "12. A importância do flash", textoOp: "", texto1: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", texto2: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?", texto3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", texto4:"", imagemCapa: Images.ImgLicao12!, imagem1: Images.ImgLicao14!, imagem2: Images.ImgLicao13!, imagem3: Images.ImgLicao11!, imagem4: Images.ImgLicao8!, Leon: Images.Leon1!)
-    let li13 = Lição(titulo: "13. Composição", textoOp: "", texto1: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", texto2: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?", texto3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", texto4:"", imagemCapa: Images.ImgLicao13!, imagem1: Images.ImgLicao10!, imagem2: Images.ImgLicao13!, imagem3: Images.ImgLicao11!, imagem4: Images.ImgLicao8!, Leon: Images.Leon1!)
-    let li14 = Lição(titulo: "14. A arte do recorte", textoOp: "", texto1: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", texto2: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?", texto3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", texto4:"", imagemCapa: Images.ImgLicao14!, imagem1: Images.ImgLicao14!, imagem2: Images.ImgLicao13!, imagem3: Images.ImgLicao11!, imagem4: Images.ImgLicao8!, Leon: Images.Leon1!)
+    """, imagemCapa: Images.ImgLicao9!, imagem1: Images.L9Img1!, imagem2: Images.L9Img2!, imagem3: Images.L9Img3!, imagem4: Images.L9Img4!, Leon: Images.Leon3!)
+
+    let li10 = Lição(titulo: "10. Perspectiva", textoOp: """
+    A perspectiva é uma poderosa ferramenta de composição fotográfica que, se usada corretamente, pode trazer resultados incríveis para a sua foto.
+
+    A fotografia é a representação bidimensional de um mundo tridimensional e a perspectiva é uma técnica de representação tridimensional que possibilita criar a ilusão de profundidade e volume nas imagens e objetos.
+
+    Antes de continuarmos é importante conhecermos alguns elementos importantes que usaremos na hora de compor a fotografia:
+    """, texto1: """
+    Linha do horizonte (LH): é uma linha imaginária que representa o nível dos olhos do observador. Em uma paisagem é a linha que divide o céu e a terra. Esta linha deve ser sempre paralela às bordas superior e inferior da imagem para não causar desconforto aos olhos de quem vê a foto.
+
+    Ponto de vista (PV): é o ponto de convergência do olhar do observador. É definido traçando uma linha perpendicular à linha do horizonte no local onde se encontra o observador. O cruzamento desta linha com a linha do horizonte é o ponto de vista.
+
+    Perspectiva na composição fotográfica
+    Ponto de fuga (PF): é o ponto para onde convergem todas as linhas de fuga dos elementos da imagem.
+
+    Linhas de fuga (LF): são linhas imaginárias, traçadas na imagem, que convergem para o ponto de fuga, proporcionam a sensação de profundidade da imagem.
+    """, texto2: """
+    Perspectiva linear - As linhas de fuga convergem para um ponto de fuga provocando a sensação de profundidade e distância.
+
+    Ângulo normal - a imagem é feita no mesmo nível do observador. Com este ângulo obtemos uma imagem mais natural.
+    """, texto3: """
+     Ângulo Picado ou Plongê - quando fazemos a foto de cima para baixo. Isto aumenta a profundidade da imagem e passa a sensação de inferioridade.
+
+     Ângulo contra-picado ou contra-plongê - quando a foto é feita de baixo para cima. Isto aumenta a profundidade da imagem e passa a noção de superioridade.
+
+    Nadir - A fotografia é feita de baixo para cima de um ponto paralelo ao plano inferior. Seria como colocar o celular no chão com a câmera voltada para cima, potencializando ainda mais a profundidade da imagem.
+
+    Zênite: é o contrário do nadir. Seria uma fotografia aérea com a câmera posicionada de forma paralela ao solo. Este ângulo também potencializa a profundidade da imagem.
+    """, texto4:"""
+    A perspectiva traz um olhar diferente para a sua foto.
+
+    Te apresentei vários conceitos técnicos mas não se preocupe com os nomes, eles foram apenas para você ver que dá para brincar com os ângulos da foto, para você testar diferentes posições.
+
+    E ai, o que achou dessa aula? Muito legal saber que há vários tipos de perspectiva né?
+
+    Agora que está craque na teoria, o que acha de praticar? Teste você mesmo e tenha resultados incríveis!
+
+    Até mais!
+    """, imagemCapa: Images.ImgLicao10!, imagem1: Images.L10Img1!, imagem2: Images.L10Img2!, imagem3: Images.L10Img3!, imagem4: Images.L10Img4!, Leon: Images.Leon2!)
+
+    let li11 = Lição(titulo: "11. Regra dos terços", textoOp: "", texto1: """
+    A regra dos terços é extremamente importante em fotografia e pode ser usada tanto para fotos de pessoas, como de paisagens.
+
+    Talvez a mais conhecida, a Regra dos Terços consiste em dividir a sua foto com um “jogo da velha”, sendo que os elementos principais devem ficar posicionados nos pontos de interseção das linhas que formam os quadros.
+    """, texto2: """
+    O básico dessa regra é lembrar que composições fora do centro podem funcionar bem e serem bem-sucedidas.
+
+    Quando você observa o rosto de uma pessoa, qual a primeira coisa que você repara? Os olhos, não é? Então, no caso de retratos, para seguir a regra dos terços, tente deixar o olho da pessoa nas interseções das linhas.
+
+    Ok, mas e se a gente não acertar em cheio e enquadrar a foto perfeitamente na regra dos terços? Calma, nem tudo está perdido! Basta você cortar a foto na hora da edição!
+    """, texto3: """
+    Dois grupos de terços:
+
+    Os dois grupos de terços são: Vertical e horizontal.
+
+    Quando você for fotografar uma paisagem, tente sempre deixar a linha do horizonte na primeira ou na segunda linha horizontal, mesmo que o ponto de interesse não fique em uma das interseções.
+
+    Deixe na parte maior o que estiver mais bonito. Se o céu estiver colorido, cheio de nuvens e tudo mais, dê preferência a ele, se a parte de baixo estiver mais interessante, então corte o céu.
+
+    Horizonte centralizado, com algumas exceções, não é tão legal assim.
+    """, texto4:"""
+    E aí, o que você achou sobre essa lição? É um elemento chave para tirar fotos mais profissionais.
+
+    Agora é sua vez de testar!
+    """, imagemCapa: Images.ImgLicao11!, imagem1: Images.L11Img1!, imagem2: Images.L11Img2!, imagem3: Images.L11Img3!, imagem4: Images.L11Img4!, Leon: Images.Leon3!)
+    
 
 func criarLição() -> [Lição]{
     
-    return [li1, li2, li3, li4, li5, li6, li7, li8, li9, li10, li11, li12, li13, li14]
+    return [li1, li2, li3, li4, li5, li6, li7, li8, li9, li10, li11]
 }
 

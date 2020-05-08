@@ -12,13 +12,16 @@ class HomeImageVC: UIViewController {
 
     @IBOutlet weak var ImageView: UIImageView!
     
+    //Declaração da variável que recebe o nome da imagem selecionada
     var imageName: imagensHome!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Chamando a função de configuração
         configurarImagem()
     }
     
+    //Função que coloca a imagem na ImageView e arredonda as bordas
     func configurarImagem(){
         ImageView.image = imageName.CellImage
         ImageView.layer.cornerRadius = 10
