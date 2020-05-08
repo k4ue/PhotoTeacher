@@ -78,12 +78,33 @@ struct Images {
     static let L9Img4 = UIImage(named: "L9ImageView4.jpg")
         
     //Declaração de imagens das Dicas
-    static let ImgDica1 = UIImage(named: "1. Edite.jpg")
-    static let ImgDica2 = UIImage(named: "2. Macro camera.jpg")
-    static let ImgDica3 = UIImage(named: "3. Estabilizador.jpg")
-    static let ImgDica4 = UIImage(named: "4. Filtro multicolorido.jpg")
-    static let ImgDica5 = UIImage(named: "5. Fundo infinito.caixa de luz.jpg")
-    static let ImgDica6 = UIImage(named: "6. Fotografe melhor.jpg")
-    static let ImgDica7 = UIImage(named: "7. Acessorios.jpg")
-    static let ImgDica8 = UIImage(named: "8. Truque para foto.jpg")
+    static let Img1Dica1 = UIImage(named: "1. Edite.jpg")
+    static let Img2Dica1 = UIImage(named: "D.EF.1.png")
+    static let Img3Dica1 = UIImage(named: "D.EF.2.png")
+    static let Img4Dica1 = UIImage(named: "D.EF.3.png")
+    
+    static let Img1Dica2 = UIImage(named: "2. Macro camera.jpg")
+    static let Img2Dica2 = UIImage(named: "D.LM.1.jpg")
+    static let Img3Dica2 = UIImage(named: "D.LM.2.jpg")
+    static let Img4Dica2 = UIImage(named: "D.LM.3.jpg")
+    
+    static let Img1Dica3 = UIImage(named: "3. Estabilizador.jpg")
+    static let Img2Dica3 = UIImage(named: "DE1.jpg")
+    static let Img3Dica3 = UIImage(named: "DE2.jpg")
+    static let Img4Dica3 = UIImage(named: "DE3.png")
+    
+    static let Img1Dica4 = UIImage(named: "D.DF.1.png")
+    static let Img2Dica4 = UIImage(named: "D.DF.2.png")
+    static let Img3Dica4 = UIImage(named: "D.DF.3.png")
+    static let Img4Dica4 = UIImage(named: "D.DF.4.png")
+    
+    static let Img1Dica5 = UIImage(named: "5. Fundo infinito.caixa de luz.jpg")
+    static let Img2Dica5 = UIImage(named: "DFI1.jpg")
+    static let Img3Dica5 = UIImage(named: "DFI2.jpg")
+    static let Img4Dica5 = UIImage(named: "DFI3.png")
+    
+    static let Img1Dica8 = UIImage(named: "8. Truque para foto.jpg")
+    static let Img2Dica8 = UIImage(named: "DFE1.jpg")
+    static let Img3Dica8 = UIImage(named: "DFE2.png")
+    static let Img4Dica8 = UIImage(named: "DFE3.png")
     }
