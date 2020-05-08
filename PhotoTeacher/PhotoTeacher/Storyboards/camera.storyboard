@@ -10,7 +10,7 @@
         <!--📷-->
         <scene sceneID="BoC-Nj-LAF">
             <objects>
-                <viewController autoresizesArchivedViewToFullSize="NO" title="📷" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="overFullScreen" hidesBottomBarWhenPushed="YES" id="dUn-uB-ZLE" customClass="📷" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="📷" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="overFullScreen" hidesBottomBarWhenPushed="YES" id="dUn-uB-ZLE" customClass="📷" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZkM-tQ-b65">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
