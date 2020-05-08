@@ -23,7 +23,7 @@ struct Lição{
     var Leon: UIImage
 }
 
-let li1 = Lição(titulo: "1. O que é fotografia?", textoOp: "", texto1: """
+let li1 = Lição(titulo: "1. Sua câmera", textoOp: "", texto1: """
     Antes de você começar a fotografar, é muito importante você aprender sobre a sua câmera, como configurar ela e ativar suas principais ferramentas.
 
     O aplicativo de câmera é um aplicativo cheio de ferramentas como:
