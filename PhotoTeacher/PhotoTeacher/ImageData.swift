@@ -16,6 +16,9 @@ import UIKit
  */
 struct Images {
 
+    static let acessorios = UIImage(named: "image5.jpg")
+    static let fotografia = UIImage(named: "Photo.jpg")
+    
     //Declaração das imagens do mascote
     static let Leon1 = UIImage(named: "Leon1.jpg")
     static let Leon2 = UIImage(named: "Leon2.jpg")
