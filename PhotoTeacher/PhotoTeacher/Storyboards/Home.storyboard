@@ -24,7 +24,7 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ovf-hy-usg">
                                                 <rect key="frame" x="15" y="30" width="269" height="162.33333333333334"/>
-                                                <string key="text">Bem vindo ao seu app de fotografia. Eu sou o leon e vou te ajudar na sua jornada de aprendizado! 
+                                                <string key="text">Bem vindo ao seu app de fotografia. Eu sou o Leon e vou te ajudar na sua jornada de aprendizado! 
 O que acha de começarmos a aprender com as nossas lições e dicas? 
 Fique à vontade!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
