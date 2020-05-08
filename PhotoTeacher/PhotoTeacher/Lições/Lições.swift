@@ -10,7 +10,6 @@ import SwiftUI
 
 struct Lição{
     var titulo: String
-    var textoOp: String
     var texto1: String
     var texto2: String
     var texto3: String
@@ -22,6 +21,7 @@ struct Lição{
     var imagem4: UIImage
     var Leon: UIImage
 }
+
 
 let li1 = Lição(titulo: "1. O que é fotografia?", textoOp: "", texto1: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", texto2: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?", texto3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",texto4: "", imagemCapa: Images.ImgLicao1!, imagem1: Images.ImgLicao14!, imagem2: Images.ImgLicao13!, imagem3: Images.ImgLicao11!, imagem4: Images.ImgLicao8!, Leon: Images.Leon1!)
     let li2 = Lição(titulo: "2. Noções de fotografia", textoOp: "", texto1: """
@@ -62,7 +62,6 @@ let li1 = Lição(titulo: "1. O que é fotografia?", textoOp: "", texto1: "Sed u
     Frias – incluem verde, azul e violeta. São mais moderadas, calmas e suaves, trazem, geralmente, uma sensação de frio.
 
     Ei! Está percebendo que está bem diretas, resumidas e claras as informações? Essa é a nossa intenção nesta lição, não se esqueça de não ficar querendo saber os detalhes logo de primeira, você ainda verá todos. Ok?
-
     """, texto4: """
     Regras básicas na fotografia:
 
@@ -84,7 +83,7 @@ let li1 = Lição(titulo: "1. O que é fotografia?", textoOp: "", texto1: "Sed u
 
     O mundo da fotografia é grande e vasto, por isso, vamos te ensinar cada coisa de um jeito mais aprofundado. Vamos lá?!
 
-""", imagemCapa: Images.ImgLicao2!, imagem1: Images.L2Img1!, imagem2: Images.L2Img2!, imagem3: Images.L2Img3!, imagem4: Images.L2Img4!, Leon: Images.Leon1!)
+                    """, imagemCapa: Images.ImgLicao2!, imagem1: Images.L2Img1!, imagem2: Images.L2Img2!, imagem3: Images.L2Img3!, imagem4: Images.L2Img4!, Leon: Images.Leon1!)
 let li3 = Lição(titulo: "3. Noções - celular", textoOp: """
     Para começar, é muito importante, além de entendermos que há vários conceitos, propriedades e regras na fotografia, o mesmo vale para o seu celular.
 
@@ -381,5 +380,5 @@ let li3 = Lição(titulo: "3. Noções - celular", textoOp: """
 func criarLição() -> [Lição]{
     
     return [li1, li2, li3, li4, li5, li6, li7, li8, li9, li10, li11, li12, li13, li14]
+    
 }
-
