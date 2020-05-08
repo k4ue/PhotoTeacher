@@ -16,7 +16,7 @@ class CollectionViewCellLições: UICollectionViewCell {
        
        @IBOutlet weak var ImageView: UIImageView!
        
-    func configurarLições (with lição: Lição) {
+    func configureLições (with lição: Lição) {
         TitleLabel.text = lição.titulo
         TextLabel.text = lição.texto2
         ImageView.image = lição.imagemCapa
