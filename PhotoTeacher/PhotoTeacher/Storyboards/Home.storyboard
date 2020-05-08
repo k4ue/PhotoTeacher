@@ -196,11 +196,11 @@ Fique à vontade!</string>
             </objects>
             <point key="canvasLocation" x="1945" y="86"/>
         </scene>
-        <!--Home-->
+        <!--Inicio-->
         <scene sceneID="pXd-K1-i7T">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2RX-4k-0jN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="ICs-7s-6i5"/>
+                    <tabBarItem key="tabBarItem" title="Inicio" image="house.fill" catalog="system" selectedImage="house.fill" id="ICs-7s-6i5"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DNb-UP-Lge">
@@ -219,5 +219,6 @@ Fique à vontade!</string>
     </scenes>
     <resources>
         <image name="LeonInitial" width="681.33331298828125" height="908.33331298828125"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
     </resources>
 </document>
