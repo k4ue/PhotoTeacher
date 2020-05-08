@@ -25,7 +25,41 @@ struct Dica {
 /*Função que instancia cada uma das dicas com todos seus elementos já setados e retorna um array com todas as dicas
  */
 
-let DICA1 = Dica(titulo: "1. Editar suas fotos pode fazer toda diferença",texto: "AEEE POHA DO KRL!!! A DICA É USAR A FORÇA DO ÓDIO!!!",texto2: "teste",texto3: "teste",imagem1: Images.ImgDica1!,imagem2: Images.ImgDica1!,imagem3: Images.ImgDica1!,imagem4: Images.ImgDica1!)
+let DICA1 = Dica(titulo: "Edite suas Fotos",
+texto:"""
+Desde o nascimento da foto, os fotógrafos sempre se dedicaram a melhorar suas fotos, desenvolvendo-as em casa, tingindo, tonificando e cortando suas imagens para criar uma foto perfeita.
+
+A edição de fotos é ideal para evidenciar algum elemento que já está bom na sua foto, ou para transmitir um estilo próprio.
+
+No iPhone e em outros celulares há uma ferramenta de edição no próprio aplicativo de fotos
+
+Quando você abre o aplicativo de fotos e clica em uma foto, no canto superior à direita a um botão escrito “editar” e é por lá que você pode editar suas fotos.
+""",
+texto2: """
+Você pode:
+Cortar
+- Endireitar
+- Colocar filtros
+- Ajustar a um tipo de tamanho
+- Virar a imagem
+- Refletir
+- Ajustar brilho, saturação e afins
+
+E ai que vem a importância de editar suas fotos.
+
+Editando elas, você consegue cortar partes desnecessárias, deixar o horizonte alinhado e tantas outras coisas, mas nesta dica, te ensinarei a ressaltar a beleza da sua foto., ou seja, aprender a ajustar o brilho, saturação, exposição, sombras e tudo mais.
+
+1. Se você preferir, você pode usar o modo “auto”
+2. Teste ajustando no grid com a regra dos terços e o alinhamento de perspectiva para deixar a foto reta e alinhada ao horizonte ou o que for
+3. Teste cada propriedade como brilho, saturação, tonalidade, exposição e afins
+4. CUIDADO para não se empolgar e editar de um jeito forçado, estragando a foto ao invés de realçar seus detalhes ou dar uma personalidade a ela.
+""",
+texto3: """
+Dica: Para você ver como a foto estava antes, você pode dar um clique na imagem que vai aparecer “original recortado”
+
+Resultado:
+""",
+imagem1: Images.Img1Dica1!,imagem2: Images.Img2Dica1!,imagem3: Images.Img3Dica1!,imagem4: Images.Img4Dica1!)
 
 let DICA2 = Dica(titulo: "Lente macro",
 texto: """
@@ -59,7 +93,7 @@ Curtiu o truque?
 
 Agora é sua vez de testar. Até mais!
 """,
-imagem1: Images.ImgDica2!,imagem2: Images.ImgDica1!,imagem3: Images.ImgDica1!,imagem4: Images.ImgDica1!)
+imagem1: Images.Img1Dica2!,imagem2: Images.Img1Dica2!,imagem3: Images.Img1Dica2!,imagem4: Images.Img1Dica2!)
 
 let DICA3 = Dica(titulo:"Faça um estabilizador",
 texto: """
@@ -105,7 +139,7 @@ Dica: Você pode colocar no flash também para alterar a cor dele
 
 Pronto! Agora você pode tirar fotos com um efeito muito legal.
 """,
-imagem1: Images.ImgDica4!,imagem2: Images.ImgDica1!,imagem3: Images.ImgDica1!,imagem4: Images.ImgDica1!)
+imagem1: Images.Img1Dica4!,imagem2: Images.Img1Dica4!,imagem3: Images.Img1Dica4!,imagem4: Images.Img1Dica4!)
 
 let DICA5 = Dica(titulo: "Fundo infinito",
 texto: """
@@ -140,8 +174,7 @@ O que achou dessa dica? Curtiu?
 
 Te espero nas outras dicas!
 """, imagem1: Images.Img1Dica5!, imagem2: Images.Img2Dica5!,imagem3: Images.Img3Dica5!,imagem4: Images.Img4Dica5!)
-let DICA6 = Dica(titulo: "6. Dicas para fotografar melhor",texto: "AEEE POHA DO KRL!!! A DICA É USAR A FORÇA DO ÓDIO!!!",texto2: "teste",texto3: "teste", imagem1: Images.ImgDica6!, imagem2: Images.ImgDica1!,imagem3: Images.ImgDica1!,imagem4: Images.ImgDica1!)
-let DICA7 = Dica(titulo: "7. Conheça os acessórios que alavancarão suas fotos",texto: "AEEE POHA DO KRL!!! A DICA É USAR A FORÇA DO ÓDIO!!!",texto2: "teste",texto3: "teste", imagem1: Images.ImgDica7!, imagem2: Images.ImgDica1!,imagem3: Images.ImgDica1!,imagem4: Images.ImgDica1!)
+
 let DICA8 = Dica(titulo: "Fundo com Efeitos",
 texto: """
 Você já quis tirar uma foto de um objeto com um fundo legal e não estava gostando de nada no lugar que você está?
@@ -188,5 +221,5 @@ imagem1: Images.Img1Dica8!,imagem2: Images.Img2Dica8!,imagem3: Images.Img3Dica8!
 
 func criaDicas() -> [Dica] {
     
-    return [DICA1, DICA2, DICA3, DICA4, DICA5, DICA6, DICA7,DICA8]
+    return [DICA1, DICA2, DICA3, DICA4, DICA5, DICA8]
 }
