@@ -277,10 +277,7 @@
 				3898634C2460C76B00D638EC /* DicaViewController.swift in Sources */,
 				97EB7B772450CEFA004B57A8 /* CollectionViewCellLições.swift in Sources */,
 				24304A0D2448DC2C00C65030 /* Camera.swift in Sources */,
-
-				38E7F02E243E5121001D7FD4 /* ViewController.swift in Sources */,
 				97EB53362461F66C008D3CC7 /* LicaoVC.swift in Sources */,
-
 				97EB7B8924536FE4004B57A8 /* ImageData.swift in Sources */,
 				38E7F02A243E5121001D7FD4 /* AppDelegate.swift in Sources */,
 				3898633C245B2C8C00D638EC /* ViewControllerTelaInicial.swift in Sources */,

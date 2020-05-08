@@ -83,12 +83,12 @@ No objeto, pode usar uma garrafa pet, um poste, qualquer coisa que vier a sua ca
 texto3: """
 Pronto! Agora você pode testar e ver como é mais fácil e simples tirar fotos estáveis
 """,
-imagem1: Images.ImgDica3!,imagem2: Images.ImgDica1!,imagem3: Images.ImgDica1!,imagem4: Images.ImgDica1!)
+imagem1: Images.Img1Dica3!,imagem2: Images.Img2Dica3!,imagem3: Images.Img3Dica3!,imagem4: Images.Img4Dica3!)
 
 let DICA4 = Dica(titulo: "Filtro multicolorido",
 texto: """
 Olha que legal, para você fazer um efeito a mais nas suas fotos, você não precisa de filtros artificiais, pode fazer na mão.
-
+ 
 Tudo o que você vai precisar é de:
 
 -Fita adesiva transparente
@@ -139,7 +139,7 @@ Agora é a sua vez de testar!
 O que achou dessa dica? Curtiu?
 
 Te espero nas outras dicas!
-""", imagem1: Images.ImgDica5!, imagem2: Images.ImgDica1!,imagem3: Images.ImgDica1!,imagem4: Images.ImgDica1!)
+""", imagem1: Images.Img1Dica5!, imagem2: Images.Img2Dica5!,imagem3: Images.Img3Dica5!,imagem4: Images.Img4Dica5!)
 let DICA6 = Dica(titulo: "6. Dicas para fotografar melhor",texto: "AEEE POHA DO KRL!!! A DICA É USAR A FORÇA DO ÓDIO!!!",texto2: "teste",texto3: "teste", imagem1: Images.ImgDica6!, imagem2: Images.ImgDica1!,imagem3: Images.ImgDica1!,imagem4: Images.ImgDica1!)
 let DICA7 = Dica(titulo: "7. Conheça os acessórios que alavancarão suas fotos",texto: "AEEE POHA DO KRL!!! A DICA É USAR A FORÇA DO ÓDIO!!!",texto2: "teste",texto3: "teste", imagem1: Images.ImgDica7!, imagem2: Images.ImgDica1!,imagem3: Images.ImgDica1!,imagem4: Images.ImgDica1!)
 let DICA8 = Dica(titulo: "Fundo com Efeitos",
@@ -184,7 +184,7 @@ Agora teste, você vai adorar.
 
 Use suas habilidades de fotografia! Use a regra dos terços ao seu favor, perspectiva, foto, iluminação e tudo mais que vocÊ aprendeu aqui. Teste, experimente até você gostar da melhor versão.
 """,
-imagem1: Images.ImgDica8!,imagem2: Images.ImgDica1!,imagem3: Images.ImgDica1!,imagem4: Images.ImgDica1!)
+imagem1: Images.Img1Dica8!,imagem2: Images.Img2Dica8!,imagem3: Images.Img3Dica8!,imagem4: Images.Img4Dica8!)
 
 func criaDicas() -> [Dica] {
     
