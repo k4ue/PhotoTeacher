@@ -72,10 +72,10 @@ struct Images {
     static let L8Img2 = UIImage(named: "L8ImageView2.jpg")
     static let L8Img3 = UIImage(named: "L8ImageView3.jpg")
     static let L8Img4 = UIImage(named: "L8ImageView4.jpg")
-    static let L9Img1 = UIImage(named: "L9ImageView1.jpg")
-    static let L9Img2 = UIImage(named: "L9ImageView2.jpg")
-    static let L9Img3 = UIImage(named: "L9ImageView3.jpg")
-    static let L9Img4 = UIImage(named: "L9ImageView4.jpg")
+    static let L9Img1 = UIImage(named: "L9ImageView1.png")
+    static let L9Img2 = UIImage(named: "L9ImageView2.png")
+    static let L9Img3 = UIImage(named: "L9ImageView3.png")
+    static let L9Img4 = UIImage(named: "L9ImageView4.png")
         
     //Declaração de imagens das Dicas
     static let ImgDica1 = UIImage(named: "1. Edite.jpg")
