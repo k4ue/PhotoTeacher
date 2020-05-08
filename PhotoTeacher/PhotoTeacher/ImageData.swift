@@ -45,6 +45,9 @@ struct Images {
     static let Img4Dica1 = UIImage(named: "D.EF.3.png")
     
     static let Img1Dica2 = UIImage(named: "2. Macro camera.jpg")
+    static let Img2Dica2 = UIImage(named: "D.LM.1.jpg")
+    static let Img3Dica2 = UIImage(named: "D.LM.2.jpg")
+    static let Img4Dica2 = UIImage(named: "D.LM.3.jpg")
     
     static let Img1Dica3 = UIImage(named: "3. Estabilizador.jpg")
     static let Img2Dica3 = UIImage(named: "DE1.jpg")

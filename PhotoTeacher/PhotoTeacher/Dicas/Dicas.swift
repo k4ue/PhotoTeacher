@@ -93,7 +93,7 @@ Curtiu o truque?
 
 Agora é sua vez de testar. Até mais!
 """,
-imagem1: Images.Img1Dica2!,imagem2: Images.Img1Dica2!,imagem3: Images.Img1Dica2!,imagem4: Images.Img1Dica2!)
+imagem1: Images.Img1Dica2!,imagem2: Images.Img2Dica2!,imagem3: Images.Img3Dica2!,imagem4: Images.Img4Dica2!)
 
 let DICA3 = Dica(titulo:"Faça um estabilizador",
 texto: """
