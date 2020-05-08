@@ -119,27 +119,34 @@ Pronto! Agora você pode testar e ver como é mais fácil e simples tirar fotos 
 """,
 imagem1: Images.Img1Dica3!,imagem2: Images.Img2Dica3!,imagem3: Images.Img3Dica3!,imagem4: Images.Img4Dica3!)
 
-let DICA4 = Dica(titulo: "Filtro multicolorido",
+let DICA4 = Dica(titulo: "Difusor de flash",
 texto: """
-Olha que legal, para você fazer um efeito a mais nas suas fotos, você não precisa de filtros artificiais, pode fazer na mão.
- 
+O flash geralmente tem tendência de estourar a imagem, superexpondo-a e deixando-a, geralmente, com uma luz dura.
+
+E por isso separei essa dica especial para você!
+
+Lembrando que esse truque não substitui um bom difusor, mas ameniza esse tipo de luz deixando sua iluminação mais difusa.
+
 Tudo o que você vai precisar é de:
 
--Fita adesiva transparente
--Canetinha
--Sua câmera
+- Fita adesiva transparente
+- Caneta permanente
+- Sua câmera
+
 """,
 texto2: """
-1. Cole um pedaço da fita adesiva sobre a sua câmera
-2. Pinte essa fita com a canetinha
-3. Entre na sua câmera e teste o efeito
+1. Cole um pedaço da fita adesiva sobre o seu flash
+2. Pinte essa fita com a caneta
+3. Entre na sua câmera
+4. Ative o flash
 """,
 texto3: """
-Dica: Você pode colocar no flash também para alterar a cor dele
+Dica: Além dele deixar a luz mais difusa, você pode testar com outras cores de permanente para descobrir se a cor do flash muda e, assim, trazendo um efeito novo e diferente para a sua foto.
 
 Pronto! Agora você pode tirar fotos com um efeito muito legal.
+
 """,
-imagem1: Images.Img1Dica4!,imagem2: Images.Img1Dica4!,imagem3: Images.Img1Dica4!,imagem4: Images.Img1Dica4!)
+imagem1: Images.Img1Dica4!,imagem2: Images.Img2Dica4!,imagem3: Images.Img3Dica4!,imagem4: Images.Img4Dica4!)
 
 let DICA5 = Dica(titulo: "Fundo infinito",
 texto: """
