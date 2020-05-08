@@ -10,7 +10,7 @@
         <!--📷-->
         <scene sceneID="BoC-Nj-LAF">
             <objects>
-                <viewController autoresizesArchivedViewToFullSize="NO" title="📷" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="overFullScreen" hidesBottomBarWhenPushed="YES" id="dUn-uB-ZLE" customClass="📷" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="📷" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="overFullScreen" hidesBottomBarWhenPushed="YES" id="dUn-uB-ZLE" customClass="📷" customModule="PhotoTeacher" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZkM-tQ-b65">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -18,17 +18,21 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfF-fz-5Am">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uc8-AR-Pbz">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uc8-AR-Pbz">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="Uc8-AR-Pbz" firstAttribute="leading" secondItem="nfF-fz-5Am" secondAttribute="leading" id="Nee-yH-Hef"/>
                                     <constraint firstAttribute="trailing" secondItem="Uc8-AR-Pbz" secondAttribute="trailing" id="g2X-Z4-iV7"/>
                                     <constraint firstItem="Uc8-AR-Pbz" firstAttribute="top" secondItem="nfF-fz-5Am" secondAttribute="top" id="jeL-Tf-5b2"/>
                                     <constraint firstAttribute="bottom" secondItem="Uc8-AR-Pbz" secondAttribute="bottom" id="xhr-dV-58e"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="F6O-YI-riu" appends="YES" id="MDG-kh-lOy"/>
+                                </connections>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXp-VX-RiU">
                                 <rect key="frame" x="188.66666666666666" y="59" width="37" height="30"/>
@@ -63,10 +67,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qrw-Cy-prj">
-                                <rect key="frame" x="305" y="778" width="50" height="47.666666666666629"/>
+                                <rect key="frame" x="305" y="788" width="50" height="37.666666666666629"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="KKL-et-xdA"/>
-                                    <constraint firstAttribute="height" constant="50" id="yUy-tm-sHK"/>
+                                    <constraint firstAttribute="height" constant="40" id="yUy-tm-sHK"/>
                                 </constraints>
                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <state key="normal" backgroundImage="camera.rotate.fill" catalog="system"/>
@@ -95,17 +99,15 @@
                         <viewLayoutGuide key="safeArea" id="b9u-nO-kyS"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="cameraView" destination="nfF-fz-5Am" id="Wen-KP-zVa"/>
                         <outlet property="composicaoImageView" destination="Uc8-AR-Pbz" id="DsE-A6-cbV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NBC-JX-B7T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="T19-n9-eaD" userLabel="Toque para focar">
+                <tapGestureRecognizer id="F6O-YI-riu" userLabel="Toque Para Focar">
                     <connections>
-                        <action selector="toqueParaFocar:" destination="dUn-uB-ZLE" id="kvv-ww-YD4"/>
+                        <action selector="toqueParaFocar:" destination="dUn-uB-ZLE" id="O7Z-k5-pjy"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

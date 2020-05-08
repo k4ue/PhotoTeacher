@@ -233,7 +233,7 @@ class 📷: UIViewController{
     func setupCamera(cameraPreferida: AVCaptureDevice!){
         let dispositivoDeCaptura = cameraPreferida
         do{
-                let input = try AVCaptureDeviceInput(device: dispositivoDeCaptura!) //diz que a imagem vira da camera setada
+            let input = try AVCaptureDeviceInput(device: dispositivoDeCaptura!) //diz que a imagem vira da camera setada
             sessaoDeCaptura = AVCaptureSession() //declara a sessao de captura
             sessaoDeCaptura?.addInput(input) //Seta a camera recebida como entrada da sessao
             videoPreviewLayer = AVCaptureVideoPreviewLayer(session: sessaoDeCaptura!)
@@ -246,8 +246,12 @@ class 📷: UIViewController{
             print("ERRO 😱")
         }
         
+        if(dispositivoDeCaptura?.isFocusModeSupported(.continuousAutoFocus))!{
+            try! dispositivoDeCaptura!.lockForConfiguration()
+            dispositivoDeCaptura!.focusMode = .continuousAutoFocus
+            dispositivoDeCaptura?.unlockForConfiguration()
+        }
         //Eu ainda não entendo bem o que ta acontecendo aqui embaixo, mas deixa pra depois
-        composicaoImageView.isHidden = true
         capturarFotoOutput = AVCapturePhotoOutput()
         capturarFotoOutput?.isHighResolutionCaptureEnabled = true
         sessaoDeCaptura?.addOutput(capturarFotoOutput!)
